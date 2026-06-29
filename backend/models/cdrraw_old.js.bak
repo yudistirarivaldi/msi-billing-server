@@ -1,0 +1,109 @@
+'use strict';
+const { Model } = require('sequelize');
+
+module.exports = (sequelize, DataTypes) => {
+  class CdrRaw extends Model {
+    static associate(models) {
+      // Association to calls_processed
+      CdrRaw.hasOne(models.callsprocessed, {
+        foreignKey: 'call_id',
+        as: 'processed_call'
+      });
+    }
+  }
+
+  CdrRaw.init({
+    id: {
+      type: DataTypes.INTEGER,
+      primaryKey: true,
+      autoIncrement: true,
+      allowNull: false
+    },
+    globalCallId: {
+      type: DataTypes.STRING(100),
+      allowNull: false,
+      unique: true,
+      validate: {
+        notEmpty: true,
+        len: [1, 100]
+      }
+    },
+    dateTimeOrigination: {
+      type: DataTypes.BIGINT,
+      allowNull: false,
+      comment: 'Raw timestamp from CUCM'
+    },
+    callingPartyNumber: {
+      type: DataTypes.STRING(50),
+      allowNull: false,
+      validate: {
+        notEmpty: true,
+        len: [1, 50]
+      }
+    },
+    finalCalledPartyNumber: {
+      type: DataTypes.STRING(50),
+      allowNull: false,
+      validate: {
+        notEmpty: true,
+        len: [1, 50]
+      }
+    },
+    origDeviceName: {
+      type: DataTypes.STRING(255),
+      allowNull: true
+    },
+    lastRedirectDn: {
+      type: DataTypes.STRING(50),
+      allowNull: true
+    },
+    clientMatterCode: {
+      type: DataTypes.STRING(50),
+      allowNull: true
+    },
+    authCodeDescription: {
+      type: DataTypes.STRING(255),
+      allowNull: true
+    },
+    origCause_value: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      validate: {
+        min: 0
+      }
+    },
+    destCause_value: {
+      type: DataTypes.INTEGER,
+      allowNull: true,
+      validate: {
+        min: 0
+      }
+    }
+  }, {
+    sequelize,
+    modelName: 'cdrraw',
+    tableName: 'cdr_raw',
+    timestamps: true,
+    underscored: true,
+    indexes: [
+      {
+        unique: true,
+        fields: ['globalCallId']
+      },
+      {
+        fields: ['dateTimeOrigination']
+      },
+      {
+        fields: ['callingPartyNumber']
+      },
+      {
+        fields: ['finalCalledPartyNumber']
+      },
+      {
+        fields: ['origDeviceName']
+      }
+    ]
+  });
+
+  return CdrRaw;
+};

@@ -1,0 +1,32 @@
+.glass-btn {
+    background: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.filter-box {
+    background: rgba(15, 23, 42, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Light Mode */
+html:not(.dark) .title-text {
+    color: #0f172a !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+}
+
+html:not(.dark) .glass-btn,
+html:not(.dark) .filter-box {
+    background: rgba(255, 255, 255, 0.8);
+    border-color: #e2e8f0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+html:not(.dark) .select-period {
+    color: #0f172a !important;
+}
+
+html:not(.dark) .select-period option {
+    background: white;
+    color: black;
+}

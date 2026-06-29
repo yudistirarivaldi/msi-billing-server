@@ -1,0 +1,17 @@
+.progress-bg {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Light Mode */
+html:not(.dark) .progress-bg {
+    background-color: #f1f5f9;
+}
+
+html:not(.dark) .list-item:hover {
+    background-color: #f8fafc;
+}
+
+html:not(.dark) .card-title,
+html:not(.dark) .card-value {
+    color: #0f172a !important;
+}

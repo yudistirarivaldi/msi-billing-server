@@ -1,0 +1,32 @@
+.export-btn {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* Light Mode - Export Button Red Accent */
+html:not(.dark) .export-btn {
+    background-color: #D72821;
+    border-color: #D72821;
+    color: white !important;
+}
+
+html:not(.dark) .export-btn:hover {
+    background-color: #b01e19;
+}
+
+html:not(.dark) .card-value-sub {
+    color: #475569;
+}
+
+html:not(.dark) .card-title,
+html:not(.dark) .card-value {
+    color: #0f172a !important;
+}
+
+/* Fix Switcher Hover in Light Mode */
+html:not(.dark) .invoice-view .glass button:not(.bg-\[\#D72821\]):hover {
+    color: #D72821 !important;
+}
+
+html:not(.dark) .invoice-view .glass button.bg-\[\#D72821\] {
+    color: white !important;
+}

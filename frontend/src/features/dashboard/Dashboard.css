@@ -1,0 +1,37 @@
+.glass {
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Light Mode Support */
+html:not(.dark) .stat-card,
+html:not(.dark) .glass {
+    background: white !important;
+    border-color: #e2e8f0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+html:not(.dark) .card-title,
+html:not(.dark) .card-value {
+    color: #0f172a !important;
+}
+
+.dashboard-view {
+    animation: fadeIn 0.5s ease-out;
+}
+
+.glass-emerald {
+    background: linear-gradient(135deg, rgba(6, 78, 59, 0.9) 0%, rgba(16, 185, 129, 0.8) 100%);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 25px 50px -12px rgba(6, 78, 59, 0.5);
+}
+
+html:not(.dark) .text-slate-300 {
+    color: #334155 !important;
+}
+
+html:not(.dark) .bg-white\/\[0\.02\] {
+    background: #f8fafc;
+}

@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "password",
+    "database": "billing_server",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres",
+    "logging": true,
+    "pool": {
+      "max": 10,
+      "min": 0,
+      "acquire": 30000,
+      "idle": 10000
+    }
+  }
+}

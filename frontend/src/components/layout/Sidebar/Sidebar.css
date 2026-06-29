@@ -1,0 +1,66 @@
+.sidebar-container {
+    background-color: #050505;
+    border-right: 1px solid rgba(215, 40, 33, 0.15);
+}
+
+.nav-label {
+    font-size: 10px;
+    font-weight: 700;
+    color: #64748b;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+.nav-link {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-radius: 1rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    color: #94a3b8;
+}
+
+.nav-link:hover {
+    background-color: rgba(215, 40, 33, 0.05);
+    color: #D72821;
+}
+
+.nav-link.active {
+    background-color: rgba(215, 40, 33, 0.1);
+    color: #D72821;
+    border: 1px solid rgba(215, 40, 33, 0.25);
+    box-shadow: 0 10px 15px -3px rgba(215, 40, 33, 0.15);
+}
+
+.profile-card {
+    background-color: rgba(215, 40, 33, 0.03);
+    border: 1px solid rgba(215, 40, 33, 0.08);
+}
+
+/* Light Mode Overrides */
+html:not(.dark) .nav-link {
+    color: #475569;
+}
+
+html:not(.dark) .nav-link:hover {
+    background-color: #fef2f2;
+}
+
+html:not(.dark) .nav-link.active {
+    background-color: #fef2f2;
+    border-color: #fee2e2;
+    color: #D72821;
+}
+
+html:not(.dark) .profile-card {
+    background-color: #f8fafc;
+    border-color: #f1f5f9;
+}
+
+html:not(.dark) .profile-card p.text-white {
+    color: #0f172a !important;
+}

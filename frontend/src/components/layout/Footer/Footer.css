@@ -1,0 +1,8 @@
+.footer-container {
+    padding-bottom: 2rem;
+}
+
+/* Light Mode */
+html:not(.dark) .footer-container {
+    border-color: #e2e8f0;
+}
