@@ -176,8 +176,8 @@ import { ref, computed, watch, onMounted } from 'vue';
 import { Search, ChevronLeft, ChevronRight, Pencil, Trash2, X, CheckCircle2, AlertCircle } from 'lucide-vue-next';
 import axios from 'axios';
 
-const apiBase = 'http://localhost:3000/api/master/teams';
-const deptApi = 'http://localhost:3000/api/master/departments';
+const apiBase = '/master/teams';
+const deptApi = '/master/departments';
 const departments = ref([]);
 const teams = ref([]);
 const showModal = ref(false);

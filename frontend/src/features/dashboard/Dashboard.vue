@@ -1,49 +1,5 @@
 <template>
   <div class="dashboard-view space-y-8 p-8 animate-fade-in">
-    <!-- Header Section (Period Filter) -->
-    <!-- <div class="flex flex-col lg:flex-row justify-end items-start lg:items-center gap-6 mb-6"> -->
-      <!-- Period Filter -->
-      <!-- <div class="glass p-1.5 rounded-2xl flex items-center gap-2 shadow-sm border border-[#D72821]/10">
-        <div class="flex items-center gap-2 px-3 border-r border-slate-200 dark:border-white/10 py-1">
-          <span class="text-[10px] font-black text-slate-400 uppercase tracking-tighter mr-1">From</span>
-          <select 
-            :value="store.startMonth" 
-            @change="e => store.setStartMonth(parseInt(e.target.value))"
-            class="bg-transparent border-none text-xs font-bold outline-none cursor-pointer text-[#D72821] select-red"
-          >
-            <option v-for="(m, i) in ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des']" :key="i" :value="i+1" class="text-slate-900">{{ m }}</option>
-          </select>
-          <select 
-            :value="store.startYear" 
-            @change="e => store.setStartYear(e.target.value)"
-            class="bg-transparent border-none text-xs font-bold outline-none cursor-pointer text-[#D72821] select-red"
-          >
-            <option value="2026" class="text-slate-900">2026</option>
-            <option value="2025" class="text-slate-900">2025</option>
-          </select>
-        </div>
-
-        <div class="flex items-center gap-2 px-3 py-1">
-          <span class="text-[10px] font-black text-slate-400 uppercase tracking-tighter mr-1">To</span>
-          <select 
-            :value="store.endMonth" 
-            @change="e => store.setEndMonth(parseInt(e.target.value))"
-            class="bg-transparent border-none text-xs font-bold outline-none cursor-pointer text-[#D72821] select-red"
-          >
-            <option v-for="(m, i) in ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des']" :key="i" :value="i+1" class="text-slate-900">{{ m }}</option>
-          </select>
-          <select 
-            :value="store.endYear" 
-            @change="e => store.setEndYear(e.target.value)"
-            class="bg-transparent border-none text-xs font-bold outline-none cursor-pointer text-[#D72821] select-red"
-          >
-            <option value="2026" class="text-slate-900">2026</option>
-            <option value="2025" class="text-slate-900">2025</option>
-          </select>
-        </div>
-      </div>
-    </div> -->
-
     <!-- Top Welcome Banner -->
     <div class="glass-red rounded-[2.5rem] p-8 text-white relative overflow-hidden group shadow-[0_20px_50px_rgba(215,40,33,0.2)] border border-white/10">
       <div class="relative z-10 flex flex-col md:flex-row justify-between items-center gap-8">
@@ -115,15 +71,12 @@
               </div>
             </div>
             
-            <!-- Detail nomor tujuan (Destination) dan durasi panggilan terformat (Duration) -->
             <div class="grid grid-cols-2 gap-6 py-4 border-t border-[#D72821]/10 mb-3">
               <div class="min-w-0">
                 <p class="text-[9px] font-black text-slate-400 uppercase mb-1">Destination</p>
-                <!-- Menampilkan nama tujuan jika tersedia -->
                 <p v-if="alert.destination_name" class="text-xs font-black text-[#D72821] truncate mb-0.5">
                   {{ alert.destination_name }}
                 </p>
-                <!-- Menampilkan nomor telepon tujuan dengan styling yang menyesuaikan -->
                 <p class="truncate" :class="alert.destination_name ? 'text-[10px] font-mono font-semibold text-slate-500 dark:text-slate-400' : 'text-sm font-black text-[#D72821]'">
                   {{ alert.destination_number }}
                 </p>
@@ -134,26 +87,18 @@
               </div>
             </div>
 
-            <!-- Periode Waktu Panggilan Detail (Start Call & End Call) hasil konversi epoch Cisco CDR -->
-            <div class="flex items-center justify-between text-[10px] bg-slate-50 dark:bg-white/[0.02] p-3 rounded-2xl border border-[#D72821]/10">
-              <!-- Waktu Mulai Panggilan (Start Call) -->
+            <div class="flex items-center justify-between text-[10px] bg-slate-50 dark:bg-white/[0.02] p-3 rounded-2xl border border-[#D72821]/10">              
               <div class="flex items-center gap-1.5" title="Start Call (Dialing Time)">
-                <!-- Dot indikator berwarna merah premium -->
                 <span class="w-1.5 h-1.5 rounded-full bg-[#D72821] shrink-0"></span>
                 <span class="text-slate-400 font-bold uppercase tracking-tight">Start:</span>
-                <!-- Menampilkan jam mulai dengan format hh:mm atau fallback ke normalized_time jika kosong -->
                 <span class="font-black text-[#D72821]">{{ alert.timeline?.dial_time ? formatTime(alert.timeline.dial_time) : formatTime(alert.normalized_time) }}</span>
               </div>
               
-              <!-- Karakter separator panah penunjuk alur waktu -->
               <div class="text-slate-300 font-bold">→</div>
               
-              <!-- Waktu Berakhir Panggilan (End Call) -->
               <div class="flex items-center gap-1.5" title="End Call (Disconnect Time)">
-                <!-- Dot indikator berwarna merah premium -->
                 <span class="w-1.5 h-1.5 rounded-full bg-[#D72821] shrink-0"></span>
                 <span class="text-slate-400 font-bold uppercase tracking-tight">End:</span>
-                <!-- Menampilkan jam selesai dengan format hh:mm atau fallback ke normalized_time jika kosong -->
                 <span class="font-black text-[#D72821]">{{ alert.timeline?.disconnect_time ? formatTime(alert.timeline.disconnect_time) : formatTime(alert.normalized_time) }}</span>
               </div>
             </div>
@@ -188,15 +133,15 @@
               </tr>
             </thead>
             <tbody class="divide-y divide-slate-200 dark:divide-white/5">
-              <!-- Perulangan data panggilan secara langsung tanpa baris ekspansi detail -->
+              
               <tr v-for="(call, index) in paginatedCalls" :key="call.id" class="hover:bg-slate-50 dark:hover:bg-white/[0.03] transition-all group">
-                <!-- Kolom nomor urut baris (1-indexed berdasarkan halaman aktif) -->
+                
                 <td class="p-4 pl-8 text-slate-500 font-mono text-[10px]">
                   {{ (currentPage - 1) * itemsPerPage + index + 1 }}
                 </td>
-                <!-- Kolom rincian waktu mulai (Start Call) dan waktu berakhir (End Call) hasil konversi epoch Cisco -->
+                
                 <td class="p-4">
-                  <!-- Waktu Mulai Panggilan (Start Call) dari dial_time atau fallback normalized_time -->
+                  
                   <div class="flex items-center gap-1.5 mb-1" title="Start Call (Dialing Time)">
                     <span class="w-1.5 h-1.5 rounded-full bg-[#D72821] shrink-0"></span>
                     <div class="text-[11px] font-bold text-[#D72821]">
@@ -207,7 +152,7 @@
                     </div>
                   </div>
                   
-                  <!-- Waktu Selesai Panggilan (End Call) dari disconnect_time atau fallback normalized_time -->
+                  
                   <div class="flex items-center gap-1.5" title="End Call (Disconnect Time)">
                     <span class="w-1.5 h-1.5 rounded-full bg-[#D72821] shrink-0"></span>
                     <div class="text-[11px] font-bold text-[#D72821]">
@@ -218,35 +163,35 @@
                     </div>
                   </div>
                   
-                  <!-- Tanggal singkat dilakukannya panggilan -->
+                  
                   <div class="text-[10px] text-slate-500 font-black uppercase tracking-widest mt-1.5 pl-3">
                     {{ formatDateShort(call.normalized_time) }}
                   </div>
                 </td>
-                <!-- Kolom profil nama pengguna dan nomor ekstensi asal -->
+                
                 <td class="p-4">
                   <div class="flex items-center gap-4">
-                    <!-- Avatar inisial huruf pertama nama pengguna -->
+                    
                     <div class="w-10 h-10 shrink-0 rounded-2xl bg-[#D72821]/10 flex items-center justify-center text-xs font-black text-[#D72821] group-hover:bg-[#D72821] group-hover:text-white transition-all shadow-sm">
                       {{ (call.user?.name || call.caller_extension).substring(0, 1).toUpperCase() }}
                     </div>
                     <div class="min-w-0">
-                      <!-- Nama lengkap pengguna atau default 'Unknown User' -->
+                      
                       <div class="text-sm font-black text-[#D72821] truncate mb-0.5">{{ call.user?.name || 'Unknown User' }}</div>
-                      <!-- Badge nomor ekstensi (extension) pemanggil -->
+                      
                       <div class="inline-flex items-center px-2 py-0.5 rounded-md bg-slate-100 dark:bg-white/5 border border-slate-200 dark:border-white/10">
                         <span class="text-[9px] font-black text-slate-500 dark:text-slate-400 tracking-tighter uppercase">EXT: {{ call.caller_extension }}</span>
                       </div>
                     </div>
                   </div>
                 </td>
-                <!-- Kolom kategori / tipe panggilan -->
+                
                 <td class="p-4 text-center">
                   <span class="px-2 py-0.5 rounded-lg text-[9px] font-bold bg-[#D72821]/10 text-[#D72821] uppercase border border-[#D72821]/10">
                     {{ call.call_type }}
                   </span>
                 </td>
-                <!-- Kolom durasi panggilan terformat (Duration) -->
+                
                 <td class="p-4 text-center">
                   <div class="text-xs font-black text-[#D72821]">
                     {{ Math.floor(call.duration / 60) }}m {{ call.duration % 60 }}s
@@ -255,7 +200,7 @@
                     {{ call.duration }} sec
                   </div>
                 </td>
-                <!-- Kolom total biaya panggilan terformat rupiah -->
+                
                 <td class="p-4 text-right pr-8 font-black text-[#D72821]">
                   Rp {{ parseFloat(call.cost).toLocaleString() }}
                 </td>
@@ -264,7 +209,7 @@
           </table>
         </div>
 
-        <!-- Paginasi Kegiatan Utama (Live Activities) dengan Desain Crimson Red Premium -->
+        
         <div class="p-6 border-t border-slate-100 dark:border-white/5 flex justify-between items-center bg-slate-50/50 dark:bg-white/[0.01]">
           <span class="text-[10px] text-slate-500 dark:text-slate-400 uppercase tracking-widest font-bold">
             Page {{ currentPage }} of {{ totalPages }}
@@ -318,14 +263,14 @@
       <!-- Container Modal Box Utama (Menggunakan class .glass untuk menjamin integrasi tema Light/Dark yang presisi) -->
       <div class="glass rounded-[3rem] w-full max-w-4xl max-h-[80vh] flex flex-col shadow-2xl overflow-hidden transform scale-100 transition-all duration-300">
         
-        <!-- Header Modal: Profil Singkat Spender & Kolom Pencarian Lokal -->
+        
         <div class="p-8 border-b border-slate-100 dark:border-white/5 flex flex-col sm:flex-row justify-between items-start sm:items-center bg-slate-50/50 dark:bg-white/[0.01] gap-4">
           <div class="flex items-center gap-4">
-            <!-- Avatar Inisial User dengan Gradasi Merah Premium -->
+            
             <div class="w-16 h-16 rounded-[1.5rem] bg-gradient-to-tr from-[#D72821] to-[#9e1b16] flex items-center justify-center text-2xl font-black text-white shadow-lg">
               {{ (selectedSpender.user?.name || 'Unknown').substring(0, 1).toUpperCase() }}
             </div>
-            <!-- Informasi Kontak & Departemen -->
+            
             <div>
               <h3 class="text-2xl font-black text-[#D72821] leading-tight">
                 {{ selectedSpender.user?.name || 'Unknown User' }}
@@ -341,9 +286,9 @@
             </div>
           </div>
           
-          <!-- Bagian Kanan Header: Input Pencarian & Tombol Close -->
+          
           <div class="flex items-center gap-4 w-full sm:w-auto">
-            <!-- Input Pencarian calls di dalam Modal -->
+            
             <div class="relative w-full sm:w-64">
               <Search class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#D72821] pointer-events-none" />
               <input 
@@ -353,17 +298,17 @@
                 class="w-full bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 rounded-2xl py-2.5 pl-11 pr-4 text-xs font-bold outline-none focus:border-[#D72821]/50 focus:ring-4 focus:ring-[#D72821]/10 transition-all shadow-sm text-slate-900 dark:text-white" 
               />
             </div>
-            <!-- Tombol Close (Silang) -->
+            
             <button @click="closeSpenderModal" class="p-2.5 rounded-xl bg-slate-100 dark:bg-white/5 hover:bg-slate-200 dark:hover:bg-white/10 text-slate-500 dark:text-slate-400 hover:text-slate-950 dark:hover:text-white transition-all">
               <X class="w-5 h-5" />
             </button>
           </div>
         </div>
 
-        <!-- Body Modal: Tabel Detail Riwayat Panggilan Terfilter & Terpaginasi -->
+        
         <div class="flex-1 overflow-y-auto p-8 space-y-8 custom-scrollbar">
           
-          <!-- Section Tabel Rincian Panggilan -->
+          
           <div>
             <div class="flex items-center justify-between mb-4">
               <h4 class="text-xs font-black text-[#D72821] uppercase tracking-widest flex items-center gap-2">
@@ -374,18 +319,18 @@
               </h4>
             </div>
 
-            <!-- Animasi Loading Spinner Saat Mengambil Data -->
+            
             <div v-if="isLoadingCalls" class="py-16 flex flex-col items-center justify-center gap-3 text-slate-500">
               <div class="w-8 h-8 border-4 border-[#D72821] border-t-transparent rounded-full animate-spin"></div>
               <p class="text-xs font-bold uppercase tracking-widest text-slate-400">Fetching calls data...</p>
             </div>
 
-            <!-- Tampilan Jika Data Kosong -->
+            
             <div v-else-if="filteredModalCalls.length === 0" class="py-16 text-center text-slate-500 italic text-xs border border-dashed border-slate-200 dark:border-white/10 rounded-2xl bg-slate-50/50 dark:bg-white/[0.01]">
               No calls matched your search criteria.
             </div>
 
-            <!-- Tabel Rincian Riwayat Panggilan Secara Detail -->
+            
             <div v-else class="border border-slate-100 dark:border-white/5 rounded-2xl overflow-hidden shadow-sm">
               <table class="w-full text-left text-xs">
                 <thead class="bg-slate-50 dark:bg-white/[0.02] text-[10px] text-slate-600 dark:text-slate-400 uppercase tracking-widest font-bold border-b border-slate-100 dark:border-white/5">
@@ -399,15 +344,15 @@
                   </tr>
                 </thead>
                 <tbody class="divide-y divide-slate-100 dark:divide-white/5">
-                  <!-- Melakukan perulangan untuk setiap panggilan terpaginasi dari hasil filter -->
+                  
                   <tr v-for="(call, index) in paginatedModalCalls" :key="call.id" class="hover:bg-slate-50 dark:hover:bg-white/[0.01] transition-all">
-                    <!-- Kolom nomor urut baris (1-indexed berdasarkan posisi halaman) -->
+                    
                     <td class="p-4 pl-6 text-slate-400 font-mono font-bold">
                       {{ (modalCurrentPage - 1) * modalItemsPerPage + index + 1 }}
                     </td>
-                    <!-- Kolom rincian waktu mulai (Start Call) dan waktu berakhir (End Call) hasil konversi epoch Cisco -->
+                    
                     <td class="p-4">
-                      <!-- Waktu Mulai Panggilan (Start Call) dari dial_time atau fallback normalized_time dengan warna merah Crimson Red -->
+                      
                       <div class="flex items-center gap-1.5 mb-1" title="Start Call (Dialing Time)">
                         <span class="w-1.5 h-1.5 rounded-full bg-[#D72821] shrink-0"></span>
                         <div class="text-[11px] font-bold text-[#D72821]">
@@ -418,7 +363,7 @@
                         </div>
                       </div>
                       
-                      <!-- Waktu Selesai Panggilan (End Call) dari disconnect_time atau fallback normalized_time dengan warna merah Crimson Red -->
+                      
                       <div class="flex items-center gap-1.5" title="End Call (Disconnect Time)">
                         <span class="w-1.5 h-1.5 rounded-full bg-[#D72821] shrink-0"></span>
                         <div class="text-[11px] font-bold text-[#D72821]">
@@ -602,7 +547,7 @@ const openSpenderModal = async (spender) => {
   
   try {
     // Memanggil API backend untuk mendapatkan rincian panggilan user berdasarkan user_id dan rentang waktu bulan/tahun dari store
-    const response = await axios.get(`http://localhost:3000/api/reports/user-calls/${spender.user_id}?month=${store.startMonth}&year=${store.startYear}`);
+    const response = await axios.get(`/reports/user-calls/${spender.user_id}?month=${store.startMonth}&year=${store.startYear}`);
     
     // Menyimpan data riwayat panggilan yang dikembalikan oleh server
     spenderCalls.value = response.data.data;
@@ -669,35 +614,27 @@ const paginatedCalls = computed(() => {
   return filteredCalls.value.slice(start, start + itemsPerPage);
 });
 
-/**
- * fetchDashboardData
- * Mengambil seluruh data statistik operasional dan analisis panggilan untuk Dashboard secara paralel.
- * Data yang diambil mencakup statistik KPI harian, 20 aktivitas panggilan terbaru, trend penggunaan harian,
- * log panggilan abnormal, top 10 penelepon, dan panggilan berdurasi panjang.
- * 
- * @throws {Error} Menampilkan pesan kegagalan ke console log jika pemanggilan API gagal.
- */
 const fetchDashboardData = async () => {
   try {
     // Memanggil berbagai endpoint API secara paralel menggunakan Promise.all untuk efisiensi performa maksimum
     const [s, r, u, a, tc, lc] = await Promise.all([
       // Mengambil data ringkasan KPI (Total Calls, Success Rate, Abnormal Calls, Est. Cost)
-      axios.get('http://localhost:3000/api/reports/dashboard-stats'),
+      axios.get('/reports/dashboard-stats'),
       
       // Mengambil 20 aktivitas panggilan terbaru
-      axios.get('http://localhost:3000/api/reports/recent-calls'),
+      axios.get('/reports/recent-calls'),
       
       // Mengambil trend volume panggilan harian (utilization) difilter berdasarkan bulan dan tahun dari store
-      axios.get(`http://localhost:3000/api/reports/utilization?startMonth=${store.startMonth}&startYear=${store.startYear}&endMonth=${store.endMonth}&endYear=${store.endYear}`),
+      axios.get(`/reports/utilization?startMonth=${store.startMonth}&startYear=${store.startYear}&endMonth=${store.endMonth}&endYear=${store.endYear}`),
       
       // Mengambil data 5 panggilan abnormal/gagal terbaru
-      axios.get('http://localhost:3000/api/reports/abnormal-calls?limit=5'),
+      axios.get('/reports/abnormal-calls?limit=5'),
       
       // Mengambil data top 10 pengeluaran biaya panggilan berdasarkan filter bulan dan tahun dari store
-      axios.get(`http://localhost:3000/api/reports/top-callers?limit=10&startMonth=${store.startMonth}&startYear=${store.startYear}&endMonth=${store.endMonth}&endYear=${store.endYear}`),
+      axios.get(`/reports/top-callers?limit=10&startMonth=${store.startMonth}&startYear=${store.startYear}&endMonth=${store.endMonth}&endYear=${store.endYear}`),
       
       // Mengambil data 5 panggilan terlama (durasi lebih dari 5 menit)
-      axios.get('http://localhost:3000/api/reports/long-calls?limit=5')
+      axios.get('/reports/long-calls?limit=5')
     ]);
     
     // Menyimpan data hasil query API ke dalam ref reactive masing-masing

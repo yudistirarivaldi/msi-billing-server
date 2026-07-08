@@ -152,7 +152,7 @@ import { ref, computed, watch, onMounted } from 'vue';
 import { Search, ChevronLeft, ChevronRight, Pencil, Trash2, X, CheckCircle2, AlertCircle } from 'lucide-vue-next';
 import axios from 'axios';
 
-const apiBase = 'http://localhost:3000/api/master/tariffs';
+const apiBase = '/master/tariffs';
 const tariffs = ref([]);
 const showModal = ref(false);
 const form = ref({ id: null, prefix: '', call_type: 'National', rate_per_second: 0, description: '' });
