@@ -152,18 +152,31 @@
       <!-- Pagination Controls -->
       <div class="p-6 border-t border-slate-100 dark:border-white/5 flex justify-between items-center bg-slate-50/50 dark:bg-white/[0.01]">
         <span class="text-[10px] text-slate-500 uppercase tracking-widest font-bold">Page {{ currentPage }} of {{ totalPages }}</span>
-        <div class="flex gap-2">
+        <div class="flex items-center gap-2">
           <button 
             @click="currentPage--" 
             :disabled="currentPage === 1"
-            class="p-2 rounded-lg bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 disabled:opacity-30 disabled:cursor-not-allowed hover:bg-slate-50 dark:hover:bg-white/10 transition-all text-[#D72821] shadow-sm"
+            class="p-2.5 rounded-xl bg-[#D72821] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#b01e18] transition-all shadow-md shadow-[#D72821]/15 flex items-center justify-center border border-transparent"
           >
             <ChevronLeft class="w-4 h-4" />
           </button>
+          
+          <div class="flex gap-1.5 px-2">
+            <button 
+              v-for="page in visiblePages" 
+              :key="page"
+              @click="currentPage = page"
+              class="w-9 h-9 rounded-xl flex items-center justify-center text-xs font-black transition-all"
+              :class="currentPage === page ? 'bg-[#D72821] text-white shadow-md shadow-[#D72821]/20' : 'bg-slate-100 dark:bg-white/5 hover:bg-slate-200 dark:hover:bg-white/10 text-slate-600 dark:text-slate-400'"
+            >
+              {{ page }}
+            </button>
+          </div>
+
           <button 
             @click="currentPage++" 
             :disabled="currentPage >= totalPages"
-            class="p-2 rounded-lg bg-white dark:bg-white/5 border border-slate-200 dark:border-white/10 disabled:opacity-30 disabled:cursor-not-allowed hover:bg-slate-50 dark:hover:bg-white/10 transition-all text-[#D72821] shadow-sm"
+            class="p-2.5 rounded-xl bg-[#D72821] text-white disabled:opacity-30 disabled:cursor-not-allowed hover:bg-[#b01e18] transition-all shadow-md shadow-[#D72821]/15 flex items-center justify-center border border-transparent"
           >
             <ChevronRight class="w-4 h-4" />
           </button>
@@ -215,6 +228,21 @@ const filteredInvoice = computed(() => {
 
 // Pagination Logic
 const totalPages = computed(() => Math.ceil(filteredInvoice.value.length / itemsPerPage) || 1);
+const visiblePages = computed(() => {
+  const pages = [];
+  const maxVisible = 5;
+  let start = Math.max(1, currentPage.value - Math.floor(maxVisible / 2));
+  let end = Math.min(totalPages.value, start + maxVisible - 1);
+  
+  if (end - start + 1 < maxVisible) {
+    start = Math.max(1, end - maxVisible + 1);
+  }
+  
+  for (let i = start; i <= end; i++) {
+    pages.push(i);
+  }
+  return pages;
+});
 const paginatedInvoice = computed(() => {
   const start = (currentPage.value - 1) * itemsPerPage;
   return filteredInvoice.value.slice(start, start + itemsPerPage);
@@ -257,7 +285,7 @@ watch([currentType, searchQuery], () => {
 
 watch(() => store.refreshCounter, fetchInvoice);
 onMounted(fetchInvoice);
-watch(() => [currentType.value, store.startMonth, store.startYear, store.endMonth, store.endYear], fetchInvoice);
+watch([currentType, () => store.startMonth, () => store.startYear, () => store.endMonth, () => store.endYear], fetchInvoice, { deep: true });
 </script>
 
 <style scoped>

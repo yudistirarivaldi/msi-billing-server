@@ -63,7 +63,7 @@ class ReportController {
                     normalized_time: { [Op.between]: [startDate, endDate] },
                     user_id: { [Op.ne]: null }
                 },
-                group: ['user_id', 'user.id'],
+                group: ['user_id', 'user.id', 'user->team.id', 'user->team->department.id'],
                 order: [[fn('SUM', col('cost')), 'DESC']]
             });
 

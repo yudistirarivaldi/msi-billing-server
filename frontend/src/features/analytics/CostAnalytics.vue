@@ -483,7 +483,7 @@ const getPercent = (cost) => {
 const formatDuration = (sec) => `${Math.floor(sec / 60)}m ${sec % 60}s`;
 
 onMounted(fetchAnalytics);
-watch(() => [store.startMonth, store.startYear, store.endMonth, store.endYear], fetchAnalytics);
+watch([() => store.startMonth, () => store.startYear, () => store.endMonth, () => store.endYear], fetchAnalytics, { deep: true });
 watch(modalSearchQuery, () => {
   modalCurrentPage.value = 1;
 });
