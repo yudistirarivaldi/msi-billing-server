@@ -1,0 +1,7380 @@
+[
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-0-0-0-0-0",
+        "nama_unit": "Pengolahan Unit-VIII"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-1-0-0-0-0",
+        "nama_unit": "Sekretariat"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-2-0-0-0-0",
+        "nama_unit": "Penunjang"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-3-0-0-0-0",
+        "nama_unit": "Setelan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-4-0-0-0-0",
+        "nama_unit": "Perawatan Mesin"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-4-0-1-0-0",
+        "nama_unit": "Perawatan Mesin Proses Tembakau Rajangan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-4-0-2-0-0",
+        "nama_unit": "Perawatan Mesin Proses Tembakau Krosok"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-4-0-3-0-0",
+        "nama_unit": "Perawatan Mesin Proses Blending Kretek dan Tembakau Matang"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "4",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-4-0-4-0-0",
+        "nama_unit": "Perawatan Forklift dan Bengkel Teknik"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "4",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-4-0-5-0-0",
+        "nama_unit": "Perawatan Peralatan Penunjang (Boiler, Kompresor, Sistem Pendingin, Pengolah Air Limbah, dll)"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-5-0-0-0-0",
+        "nama_unit": "Proses Tembakau Rajangan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-5-0-1-0-0",
+        "nama_unit": "Proses Tembakau Rajangan Kuning"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "5",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-5-0-2-0-0",
+        "nama_unit": "Proses Tembakau Rajangan Hitam"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-6-0-0-0-0",
+        "nama_unit": "Proses Tembakau Krosok"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-6-0-1-0-0",
+        "nama_unit": "Proses Tembakau Krosok"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "7",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-7-0-0-0-0",
+        "nama_unit": "Proses Blending Kretek dan Tembakau Matang"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "7",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-7-0-1-0-0",
+        "nama_unit": "Penyelesaian Proses Blending Tembakau, Cengkih, Gagang dan Saos"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "7",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-7-0-2-0-0",
+        "nama_unit": "Pengemasan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "1",
+            "7",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-1-7-0-3-0-0",
+        "nama_unit": "Pengiriman"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-0-0-0-0-0",
+        "nama_unit": "Recon Debu"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-1-0-0-0-0",
+        "nama_unit": "Sekretariat"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-2-0-0-0-0",
+        "nama_unit": "Penunjang"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-3-0-0-0-0",
+        "nama_unit": "Perawatan Mesin Proses Recon Debu"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-3-0-1-0-0",
+        "nama_unit": "Perawatan Mesin Proses Recon"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-3-0-2-0-0",
+        "nama_unit": "Perawatan Peralatan Penunjang (Boiler, Kompresor, Pendingin, Pengolah Air Limbah, Elektrikal, Teknik Umum)"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-4-0-0-0-0",
+        "nama_unit": "Proses Recon Debu"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-4-0-1-0-0",
+        "nama_unit": "Proses Bahan Recon"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-4-0-2-0-0",
+        "nama_unit": "Proses Pencampuran dan Pengeringan Recon"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "0",
+            "2",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-0-2-4-0-3-0-0",
+        "nama_unit": "Proses Perajangan, Pengemasan dan Pengiriman Recon"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-0-0-0-0-0",
+        "nama_unit": "Sekretariat Direksi"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-2-0-0-0-0-0",
+        "nama_unit": "Sub Badan Perencanaan dan Pengembangan Bangunan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "2",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-2-1-0-0-0-0",
+        "nama_unit": "Bidang Perencana Pembangunan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "2",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-2-2-0-0-0-0",
+        "nama_unit": "Bidang Perencanaan M & E Bangunan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-2-3-0-0-0-0",
+        "nama_unit": "Bidang Pengembangan Bangunan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-1-0-0-0-0",
+        "nama_unit": "Bidang Legal"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-4-0-0-0-0",
+        "nama_unit": "Bidang Hubungan Masyarakat"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-4-0-1-0-0",
+        "nama_unit": "Unit Hubungan Eksternal"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-4-0-2-0-0",
+        "nama_unit": "Unit Hubungan Internal"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-5-0-0-0-0",
+        "nama_unit": "Bidang Keamanan dan Ketertiban"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "5",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-5-0-4-0-0",
+        "nama_unit": "Tim Pengamanan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-6-0-0-0-0",
+        "nama_unit": "Health and Safety Environment"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-6-0-1-0-0",
+        "nama_unit": "Health and Safety"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "6",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-6-0-2-0-0",
+        "nama_unit": "Environment"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "0",
+            "6",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-0-6-0-3-0-0",
+        "nama_unit": "Emergency Response"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-1-0-0-0-0-0",
+        "nama_unit": "Lain Lain"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-0-0-0-0-0",
+        "nama_unit": "Tim Proyek Teknik"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-0-0-1-0-0",
+        "nama_unit": "Tim Pengeboran Sumur"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-1-0-0-0-0",
+        "nama_unit": "Tim Proyek Mekanik Mesin Pengolahan, Produksi dan Bengkel"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-1-0-1-0-0",
+        "nama_unit": "Tim Proyek Mekanik Mesin Pengolahan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-1-0-2-0-0",
+        "nama_unit": "Tim Proyek Mekanik Mesin Produksi"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-1-0-3-0-0",
+        "nama_unit": "Tim Proyek Mekanik Bengkel"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-1-0-4-0-0",
+        "nama_unit": "Tim Proyek Mekanik Bengkel Mesin CNC"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-2-0-0-0-0",
+        "nama_unit": "Tim Proyek Sistem Pendingin, Udara Bertekanan, Mesin Ketel Uap, Sarana Air dan Mesin Lain"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-2-0-1-0-0",
+        "nama_unit": "Tim Proyek Sistem Pendingin dan Udara Bertekanan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-2-0-2-0-0",
+        "nama_unit": "Tim Proyek Mesin Ketel Uap, Sarana Air dan Mesin Lain"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-3-0-0-0-0",
+        "nama_unit": "Tim Proyek Otomatisasi dan Pemrograman PLC Mesin Pengolahan, Produksi dan Mesin Lain"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-3-0-1-0-0",
+        "nama_unit": "Tim Proyek Otomatisasi dan Pemrograman PLC Mesin Pengolahan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-3-0-2-0-0",
+        "nama_unit": "Tim Proyek Otomatisasi dan Pemrograman PLC Mesin Produksi dan Mesin Lain"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "1",
+            "3",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-1-3-4-0-0-0-0",
+        "nama_unit": "Tim Proyek Listrik dan Perawatan Jaringan Tegangan Tinggi dan Pembangkit"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-0-0-0-0-0",
+        "nama_unit": "Perwakilan Surabaya"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-0-0-1-0-0",
+        "nama_unit": "Sekretariat Perwakilan Surabaya"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-0-0-2-0-0",
+        "nama_unit": "Unit Keamanan dan Ketertiban"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-1-0-0-0-0",
+        "nama_unit": "Bagian Pembelian"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-1-0-1-0-0",
+        "nama_unit": "Seksi Pengendalian Pembelian"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-1-0-2-0-0",
+        "nama_unit": "Seksi Operasional Pembelian"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-2-0-0-0-0",
+        "nama_unit": "Bagian Keuangan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-2-0-1-0-0",
+        "nama_unit": "Seksi Akuntansi"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-2-0-2-0-0",
+        "nama_unit": "Seksi Kas/Bank"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-2-0-3-0-0",
+        "nama_unit": "Seksi Export/Import"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-3-0-0-0-0",
+        "nama_unit": "Bagian SDM dan Pelayanan Umum"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-3-0-1-0-0",
+        "nama_unit": "Seksi Sumber Daya Manusia"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "4",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-4-0-3-0-2-0-0",
+        "nama_unit": "Seksi Pelayanan Umum"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-0-0-0-0-0",
+        "nama_unit": "Perwakilan Jakarta"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-0-0-1-0-0",
+        "nama_unit": "Jakarta Representative Secretariat"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-1-0-0-0-0",
+        "nama_unit": "Procurement and Purchasing Department"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-1-0-2-0-0",
+        "nama_unit": "Purchasing Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-1-0-3-0-0",
+        "nama_unit": "Procurement Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-2-0-0-0-0",
+        "nama_unit": "Finance and Accounting Department"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-2-0-1-0-0",
+        "nama_unit": "Accounting Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-2-0-2-0-0",
+        "nama_unit": "Finance Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-3-0-0-0-0",
+        "nama_unit": "Human Resources Department"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "3",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-3-0-3-0-0",
+        "nama_unit": "Development and Services Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "3",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-3-0-4-0-0",
+        "nama_unit": "Payroll Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-4-0-0-0-0",
+        "nama_unit": "General Affairs Department"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-4-0-1-0-0",
+        "nama_unit": "Administration and Support Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-4-0-2-0-0",
+        "nama_unit": "Transportation Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-4-0-3-0-0",
+        "nama_unit": "Expedition Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-5-0-0-0-0",
+        "nama_unit": "Property Maintenance Department"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-5-0-1-0-0",
+        "nama_unit": "Mechanical and Electrical Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-5-0-2-0-0",
+        "nama_unit": "Logistics Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "5",
+            "0",
+            "5",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-5-0-5-0-3-0-0",
+        "nama_unit": "Security Section"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-0-0-0-0-0",
+        "nama_unit": "Badan Pengadaan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-0-0-1-0-0",
+        "nama_unit": "Sekretariat Badan Pengadaan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-1-0-0-0-0",
+        "nama_unit": "Bidang Pengadaan Bahan Baku Tembakau"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-2-0-0-0-0",
+        "nama_unit": "Bidang Pengadaan Bahan Baku Cengkeh"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-3-0-0-0-0",
+        "nama_unit": "Bidang Pengadaan Bahan Baku Pembantu"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-4-0-0-0-0",
+        "nama_unit": "Bidang Pengadaan Umum dan Suku Cadang Mesin"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "4",
+            "1",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-4-1-0-0-0",
+        "nama_unit": "Sub Bidang Pengendalian Logistik"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "4",
+            "2",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-4-2-0-0-0",
+        "nama_unit": "Sub Bidang Pergudangan Umum dan Suku Cadang Mesin"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "4",
+            "3",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-4-3-0-0-0",
+        "nama_unit": "Sub Bidang Pembelian"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "4",
+            "3",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-4-3-1-0-0",
+        "nama_unit": "Unit Pembelian Teknik"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "6",
+            "0",
+            "4",
+            "3",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-6-0-4-3-2-0-0",
+        "nama_unit": "Unit Pembelian Non Teknik"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-0-0-0-0-0",
+        "nama_unit": "Badan Pergudangan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-1-0-0-0-0",
+        "nama_unit": "Perawatan Mesin"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-1-0-1-0-0",
+        "nama_unit": "Unit Perawatan Mesin"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-1-0-2-0-0",
+        "nama_unit": "Unit Perawatan Forklift dan Mobil Baterai"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-1-0-3-0-0",
+        "nama_unit": "Unit Perawatan Peralatan Penunjang (Boiler, Tandon Air, dll)"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-2-0-0-0-0",
+        "nama_unit": "Bidang Threshing dan Loosening"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-2-0-1-0-0",
+        "nama_unit": "Unit Penerimaan Bahan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-2-0-2-0-0",
+        "nama_unit": "Unit Proses Mesin"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-0-0-0",
+        "nama_unit": "Bidang Pergudangan Tembakau"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-3-0-0",
+        "nama_unit": "Unit Gudang Gagang"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-5-0-0",
+        "nama_unit": "Unit Gudang Tembakau Jadi Rajangan Kuning"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-6-0-0",
+        "nama_unit": "Unit Gudang Tembakau Jadi Rajangan Hitam"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-7-0-0",
+        "nama_unit": "Unit Gudang Tembakau Krosok Lokal"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "8",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-8-0-0",
+        "nama_unit": "Unit Gudang Tembakau Krosok Impor"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "9",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-9-0-0",
+        "nama_unit": "Unit Gudang Tembakau Krosok Sun-Cured dan Burley"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "A",
+            "0",
+            "A",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-A-0-A-0-0",
+        "nama_unit": "Unit Gudang Afkir, Gudang Lain dan Bahan Kemas"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "B",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-B-0-0-0-0",
+        "nama_unit": "Bidang Pergudangan Cengkih"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "B",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-B-0-3-0-0",
+        "nama_unit": "Unit Penerimaan Cengkih"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "B",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-B-0-4-0-0",
+        "nama_unit": "Unit Proses Pembersihan Cengkih"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "B",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-B-0-5-0-0",
+        "nama_unit": "Unit Silo Stok Jenis Cengkih"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "B",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-B-0-6-0-0",
+        "nama_unit": "Unit Silo Cengkih Produksi"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "7",
+            "0",
+            "B",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-7-0-B-0-7-0-0",
+        "nama_unit": "Unit Gudang Afkir dan Bahan Pembantu"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-8-0-0-0-0-0-0",
+        "nama_unit": "Badan Pengembangan Mutu dan Laboratorium"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-8-0-0-0-1-0-0",
+        "nama_unit": "Sekretariat Badan Pengembangan Mutu dan laboratorium"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "8",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-8-0-1-0-0-0-0",
+        "nama_unit": "Bidang Rokok dan Lingkungan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "8",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-8-0-2-0-0-0-0",
+        "nama_unit": "Bidang Bahan Kimia, Aroma dan Kemasan"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "B",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-B-0-0-0-0-0-0",
+        "nama_unit": "Badan Pembelian Bahan dan Barang Penunjang"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "B",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-B-0-0-0-2-0-0",
+        "nama_unit": "Unit Inklaring"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "B",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-B-0-1-0-0-0-0",
+        "nama_unit": "Bidang Pembelian Lokal"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "B",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-B-0-2-0-0-0-0",
+        "nama_unit": "Bidang Pembelian Impor"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "B",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-B-0-3-0-0-0-0",
+        "nama_unit": "Bidang Pembelian Barang Promosi"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-0-0-0-0-0",
+        "nama_unit": "Blend Preparation & Final Blend"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-1-0-0-0-0",
+        "nama_unit": "Blend Preparation"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-1-0-1-0-0",
+        "nama_unit": "Blend Preparation"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-1-0-2-0-0",
+        "nama_unit": "Incoming Material"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-2-0-0-0-0",
+        "nama_unit": "Final Blend"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-2-0-1-0-0",
+        "nama_unit": "Final Blend -I (SKT)"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-2-0-2-0-0",
+        "nama_unit": "Final Blend -II (SKM)"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-2-0-3-0-0",
+        "nama_unit": "Waste Product"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "E",
+            "0",
+            "2",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-E-0-2-0-4-0-0",
+        "nama_unit": "Blend"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-0-0-0-0-0",
+        "nama_unit": "Sauce"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-1-0-0-0-0",
+        "nama_unit": "Kediri Sauce"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-1-0-1-0-0",
+        "nama_unit": "Black Sauce"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-1-0-2-0-0",
+        "nama_unit": "White Sauce"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-1-0-3-0-0",
+        "nama_unit": "Sauce Kitchen"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-2-0-0-0-0",
+        "nama_unit": "Gempol Sauce"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-2-0-1-0-0",
+        "nama_unit": "Black Sauce"
+    },
+    {
+        "kode_parts": [
+            "0",
+            "F",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "0-F-0-2-0-2-0-0",
+        "nama_unit": "White Sauce"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-0-0-0-0-0",
+        "nama_unit": "PENGOLAHAN DIRECTORATE"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat Pengolahan/ Secretariat of Primary Office"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "A",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-A-0-0-0-0",
+        "nama_unit": "Loosening Tembakau (Temanggung)/ Tobacco Loosening (Temanggung)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "A",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-A-0-1-0-0",
+        "nama_unit": "Loosening Tembakau/ Tobacco Loosening"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "B",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-B-0-0-0-0",
+        "nama_unit": "Loosening & Threshing Tembakau (Kediri)/ Tobacco Loosening & Threshing (Kediri)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "B",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-B-0-1-0-0",
+        "nama_unit": "Loosening & Threshing Tembakau (Proses)/ Tobacco Loosening & Threshing (Process)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "B",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-B-0-2-0-0",
+        "nama_unit": "Loosening & Threshing Tembakau (Barang Jadi)/ Tobacco Loosening & Threshing (Final Product)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "B",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-B-0-3-0-0",
+        "nama_unit": "Pelayanan Teknik (Loosening & Threshing Kediri)/ Technical Support (Loosening & Threshing Kediri)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "D",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-D-0-0-0-0",
+        "nama_unit": "Pengolahan Tembakau/ (Tobacco Processing)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "D",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-D-0-1-0-0",
+        "nama_unit": "Pengolahan Tembakau (Lini 100 & 200)/ Tobacco Processing (Line 100 & 200)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "D",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-D-0-2-0-0",
+        "nama_unit": "Pengolahan Tembakau (Lini 300)/ Tobacco Processing (Line 300)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "D",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-D-0-3-0-0",
+        "nama_unit": "Pengolahan Tembakau (Lini 1000)/ Tobacco Processing (Line 1000)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "D",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-D-0-5-0-0",
+        "nama_unit": "Pengolahan Tembakau (CRS)/ Tobacco Processing (CRS)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "D",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-D-0-6-0-0",
+        "nama_unit": "Pelayanan Teknik (Pengolahan Tembakau)/ Technical Support (Tobacco Processing)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "F",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-F-0-0-0-0",
+        "nama_unit": "Pembersihan Cengkeh/ Clove Cleaning"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "F",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-F-0-1-0-0",
+        "nama_unit": "Pembersihan Cengkeh (Proses I)/ Clove Cleaning (Process I)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "F",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-F-0-3-0-0",
+        "nama_unit": "Pembersihan Cengkeh (Proses II)/ Clove Cleaning (Process II)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "F",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-F-0-4-0-0",
+        "nama_unit": "Pelayanan Teknik (Pembersihan Cengkeh)/ Technical Support (Clove Cleaning)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "G",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-G-0-0-0-0",
+        "nama_unit": "Pengolahan Cengkeh/ Clove Processing"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "G",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-G-0-1-0-0",
+        "nama_unit": "Pengolahan Cengkeh (Penerimaan dan Potong)/ Clove Processing (Incoming & Cutting)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "G",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-G-0-2-0-0",
+        "nama_unit": "Pengolahan Cengkeh (Pengeringan & Barang Jadi)/ Clove Processing (Drying & Final Product)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "G",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-G-0-4-0-0",
+        "nama_unit": "Pengolahan Cengkeh (Proses Limbah)/ Clove Processing (Waste Process)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "G",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-G-0-5-0-0",
+        "nama_unit": "Pelayanan Teknik (Pengolahan Cengkeh)/ Technical Support (Clove Processing)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "G",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-G-0-6-0-0",
+        "nama_unit": "Elektronika Pengolahan (Primary Electronic)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "H",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-H-0-0-0-0",
+        "nama_unit": "Pengendalian Mutu/ Quality Control"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "H",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-H-0-1-0-0",
+        "nama_unit": "Pengendalian mutu (Lini 100, 200 & 300)/ Quality Control (Line 100, 200 & 300)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "H",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-H-0-2-0-0",
+        "nama_unit": "Pengendalian mutu (ABL, CRS & Final Blend)/ Quality Control (ABL,CRS & Final Blend)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "H",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-H-0-3-0-0",
+        "nama_unit": "Pengendalian Mutu (Loosening, Threshing & Pembersihan Cengkeh)/ Quality Control (Loosening, Cleaning & Threshing)"
+    },
+    {
+        "kode_parts": [
+            "1",
+            "0",
+            "0",
+            "H",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "1-0-0-H-0-4-0-0",
+        "nama_unit": "Pengendalian Mutu (Pengolahan Cengkeh & Destilasi)/ Quality Control (Clove Process & Distillation)"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-0-0-0-0-0",
+        "nama_unit": "DIREKTORAT GRAFIKA"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat Direktorat Grafika"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-0-0-1-0-0",
+        "nama_unit": "Unit Sekuriti"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-3-0-0-0-0",
+        "nama_unit": "Bidang Pergudangan"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "3",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-3-0-3-0-0",
+        "nama_unit": "Unit Gudang Bhn Baku, SC dan Bhn Pembantu Produksi"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "3",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-3-0-4-0-0",
+        "nama_unit": "Unit Gudang Barang Jadi dan Afval"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-4-0-0-0-0",
+        "nama_unit": "Bidang SDM dan Pelayanan Umum"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-4-0-1-0-0",
+        "nama_unit": "Unit Personalia dan Organisasi"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-4-0-2-0-0",
+        "nama_unit": "Unit Kompensasi"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-4-0-3-0-0",
+        "nama_unit": "Unit Pelayanan Umum"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-5-0-0-0-0",
+        "nama_unit": "Bidang Keuangan dan Akuntansi"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-6-0-0-0-0",
+        "nama_unit": "Bidang PPIC"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-6-0-1-0-0",
+        "nama_unit": "Unit Pengendalian Produksi"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "6",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-6-0-2-0-0",
+        "nama_unit": "Unit Perencanaan Produksi"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-8-0-0-0-0",
+        "nama_unit": "Bidang Teknik"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "8",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-8-0-1-0-0",
+        "nama_unit": "Unit Perbengkelan"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "8",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-8-0-2-0-0",
+        "nama_unit": "Unit Perawatan Umum"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "0",
+            "0",
+            "8",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-0-0-8-0-3-0-0",
+        "nama_unit": "Unit Perawatan Mesin Produksi"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-0-0-0-0-0",
+        "nama_unit": "Divisi Percetakan"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-1-0-0-0-0",
+        "nama_unit": "Bagian Cetak Offset"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-1-0-1-0-0",
+        "nama_unit": "Seksi Cetak"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-1-0-2-0-0",
+        "nama_unit": "Seksi Potong dan Sortir"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-2-0-0-0-0",
+        "nama_unit": "Bagian Cetak Rotogravure"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-2-0-1-0-0",
+        "nama_unit": "Seksi A Rotogravure"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-2-0-2-0-0",
+        "nama_unit": "Seksi B Rotogravure"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-3-0-0-0-0",
+        "nama_unit": "Bagian Corrugating"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-3-0-1-0-0",
+        "nama_unit": "Seksi A Corrugating"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "1",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-1-0-3-0-2-0-0",
+        "nama_unit": "Seksi B Corrugating"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-0-0-0-0-0",
+        "nama_unit": "Divisi Penunjang"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-0-0-2-0-0",
+        "nama_unit": "Unit Pengolahan Tinta"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-1-0-0-0-0",
+        "nama_unit": "Bagian Pra Cetak"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-1-0-1-0-0",
+        "nama_unit": "Seksi Perangkat Cetak"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-1-0-2-0-0",
+        "nama_unit": "Seksi Pembuatan Silinder Cetak"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-3-0-0-0-0",
+        "nama_unit": "Bagian Pengendalian Mutu dan Laboratorium"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-3-0-1-0-0",
+        "nama_unit": "Seksi Pengendalian Mutu Bahan"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "2",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-2-0-3-0-2-0-0",
+        "nama_unit": "Seksi Pengendalian Mutu Cetak"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-3-0-0-0-0-0-0",
+        "nama_unit": "Divisi Percetakan Unit XI"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "3",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-3-0-0-0-2-0-0",
+        "nama_unit": "Unit Pengendalian Mutu"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "3",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-3-0-0-0-3-0-0",
+        "nama_unit": "Unit Perawatan Mesin"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-3-0-1-0-0-0-0",
+        "nama_unit": "Bagian Cetak Rotogravure"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "3",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-3-0-1-0-1-0-0",
+        "nama_unit": "Seksi A Rotogravure"
+    },
+    {
+        "kode_parts": [
+            "3",
+            "3",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "3-3-0-1-0-2-0-0",
+        "nama_unit": "Seksi B Rotogravure"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-0-0-0-0-0-0-0",
+        "nama_unit": "DIREKTORAT KEUANGAN"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat Direktorat Keuangan"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-0-0-0-0-0",
+        "nama_unit": "Divisi Keuangan"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-1-0-0-0-0",
+        "nama_unit": "Bagian Keuangan"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-1-0-1-0-0",
+        "nama_unit": "Seksi Kas"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-1-0-4-0-0",
+        "nama_unit": "Seksi Administrasi dan Pengelolaan Kas dan Bank"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "1",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-1-0-5-0-0",
+        "nama_unit": "Seksi Investasi dan Surat Berharga"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-3-0-0-0-0",
+        "nama_unit": "Bagian Cukai"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-3-0-1-0-0",
+        "nama_unit": "Seksi Administrasi Barang Kena Cukai"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-3-0-2-0-0",
+        "nama_unit": "Seksi Barang Kena Cukai"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-4-0-0-0-0",
+        "nama_unit": "Bagian Anggaran dan Evaluasi"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-4-0-1-0-0",
+        "nama_unit": "Seksi Anggaran dan Evaluasi Lembaga Produksi"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-4-0-2-0-0",
+        "nama_unit": "Seksi Anggaran dan Evaluasi Lembaga Non Produksi"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-5-0-0-0-0",
+        "nama_unit": "Bagian Asuransi"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-5-0-1-0-0",
+        "nama_unit": "Seksi Asuransi Kebakaran"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "1",
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-1-0-5-0-2-0-0",
+        "nama_unit": "Seksi Asuransi Non Kebakaran"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-0-0-0-0-0",
+        "nama_unit": "Divisi Akuntansi"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-0-0-1-0-0",
+        "nama_unit": "Unit Pengarsipan"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-1-0-0-0-0",
+        "nama_unit": "Bagian Akuntansi Umum"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-1-0-2-0-0",
+        "nama_unit": "Seksi Hutang/Piutang"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "1",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-1-0-5-0-0",
+        "nama_unit": "Seksi Bhn Baku Utama, Bhn Baku Pembantu dan Penunjang"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "1",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-1-0-7-0-0",
+        "nama_unit": "Seksi Aktiva Tetap dan PBB"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-2-0-0-0-0",
+        "nama_unit": "Bagian Akuntansi Biaya"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-2-0-1-0-0",
+        "nama_unit": "Seksi Harga Pokok Produksi Utama"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-2-0-2-0-0",
+        "nama_unit": "Seksi Harga Pokok Produksi Penunjang"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-3-0-0-0-0",
+        "nama_unit": "Bagian Akuntansi Pajak"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-3-0-1-0-0",
+        "nama_unit": "Seksi PPh Badan"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-3-0-2-0-0",
+        "nama_unit": "Seksi PPh Karyawan"
+    },
+    {
+        "kode_parts": [
+            "5",
+            "2",
+            "0",
+            "3",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "5-2-0-3-0-3-0-0",
+        "nama_unit": "Seksi PPN"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-0-0-0-0-0",
+        "nama_unit": "DIREKTORAT SUMBER DAYA MANUSIA & PELAYANAN UMUM / (HR & GA) DIRECTORATE"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat Sumber Daya Manusia & Pelayanan Umum/\n(Secretariat Of HR & GA Office)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-1-0-1-0-0",
+        "nama_unit": "Administrasi (Keuangan & Anggaran)/(Administration (Finance & Budgeting))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-1-0-2-0-0",
+        "nama_unit": "Administrasi (Umum)/(Administration (General)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-8-0-0-0-0",
+        "nama_unit": "Hubungan Masyarakat (Kediri)/(Public Relation (Kediri))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "8",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-8-0-1-0-0",
+        "nama_unit": "Penyelenggara Acara/ (Public Relation (Event Organizer))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "8",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-8-0-2-0-0",
+        "nama_unit": "Hubungan Eksternal/ (Public Relation (External Relationship))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "0",
+            "0",
+            "8",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-0-0-8-0-3-0-0",
+        "nama_unit": "Administrasi/ (Administration)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-0-0-0",
+        "nama_unit": "Sumber Daya Manusia/ (HR)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-1-0-0",
+        "nama_unit": "Sekretariat/ (Secretariat)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-2-0-0",
+        "nama_unit": "Kompensasi & Fasilitas/ (Compensation & Benefit)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-3-0-0",
+        "nama_unit": "SDM (Gempol & Waru)/ (HR Services (Gempol & Waru))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-4-0-0",
+        "nama_unit": "SDM (Jakarta)/ (HR Services (Jakarta))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-5-0-0",
+        "nama_unit": "HRIS"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-6-0-0",
+        "nama_unit": "Payroll"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "0",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-0-0-7-0-0",
+        "nama_unit": "Pengembangan SDM/ (Talent & Development)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-1-0-0-0-0",
+        "nama_unit": "Pengembangan Organisasi/ (Organization Development)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-4-0-0-0-0",
+        "nama_unit": "Hubungan Industrial/ (Industrial Relation)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "1",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-1-0-5-0-0-0-0",
+        "nama_unit": "SDM (Kediri)/ (HR Services (Kediri))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-0-0-0-0-0",
+        "nama_unit": "Pelayanan Umum/ (GA)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-0-0-1-0-0",
+        "nama_unit": "Sekretariat/ (Secretariat)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-1-0-0-0-0",
+        "nama_unit": "Rumah Tangga Perusahaan (Kediri)/ (GA (Kediri))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-1-0-1-0-0",
+        "nama_unit": "RTP (Akomodasi)/ (GA (Accommodation))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-1-0-2-0-0",
+        "nama_unit": "RTP (Pemeliharaan Lingkungan)/ (GA (Garden & Public Area Maintenance))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-1-0-3-0-0",
+        "nama_unit": "RTP (Perawatan Bangunan Area I)/ (GA (Building Maintenance Area I))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-1-0-4-0-0",
+        "nama_unit": "RTP (Perawatan Bangunan Area II)/ (GA (Building Maintenance Area II))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-3-0-0-0-0",
+        "nama_unit": "Transportasi/ (Transportation)"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-3-0-1-0-0",
+        "nama_unit": "Transportasi (Barang)/ (Transportation (Goods))"
+    },
+    {
+        "kode_parts": [
+            "6",
+            "2",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "6-2-0-3-0-2-0-0",
+        "nama_unit": "Transportasi (Penumpang)/ (Transportation (Passenger))"
+    },
+    {
+        "kode_parts": [
+            "7",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "7-0-0-0-0-0-0-0",
+        "nama_unit": "DIREKTORAT PEMBERDAYAAN USAHA"
+    },
+    {
+        "kode_parts": [
+            "7",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "7-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat Direktorat Pemberdayaan Usaha"
+    },
+    {
+        "kode_parts": [
+            "8",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "8-0-0-0-0-0-0-0",
+        "nama_unit": "SEKRETARIAT PERUSAHAAN"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-0-0-0-0-0",
+        "nama_unit": "Produksi (Gempol)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-1-0-2-0-0",
+        "nama_unit": "Tim Keuangan"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-1-0-3-0-0",
+        "nama_unit": "Tim Keamanan dan Hubungan Masyarakat"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "1",
+            "2",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-1-2-0-0-0",
+        "nama_unit": "Pengadaan Barang, Perencanaan Bahan dan Perencanaan Produksi"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-4-0-0-0-0",
+        "nama_unit": "SDM, Pelayanan Umum, Pelayanan Transportasi"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-4-0-1-0-0",
+        "nama_unit": "Tim Sumber Daya Manusia"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-4-0-3-0-0",
+        "nama_unit": "Tim Kesehatan Keselamatan Kerja dan Lingkungan"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "4",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-4-0-5-0-0",
+        "nama_unit": "Pelayanan Umum dan Pelayanan Transportasi"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "4",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-4-0-6-0-0",
+        "nama_unit": "Tim Pemeliharaan Bangunan"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "4",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-4-0-7-0-0",
+        "nama_unit": "Tim Bengkel Kendaraan dan Forklift"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-8-0-0-0-0",
+        "nama_unit": "Pergudangan Bahan Non Tembakau dan Suku Cadang"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "8",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-8-0-2-0-0",
+        "nama_unit": "Gudang Bahan Non Tembakau"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "8",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-8-0-3-0-0",
+        "nama_unit": "Gudang Suku Cadang"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "8",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-8-0-4-0-0",
+        "nama_unit": "Tim Pengecek Penerimaan Suku Cadang"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "8",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-8-0-5-0-0",
+        "nama_unit": "Tim Pengecek Penerimaan Bahan Non Tembakau"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "D",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-D-0-0-0-0",
+        "nama_unit": "Perawatan Berkala Mesin SKM"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "D",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-D-0-1-0-0",
+        "nama_unit": "Tim Perawatan Berkala Mesin Maker"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "D",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-D-0-2-0-0",
+        "nama_unit": "Tim Perawatan Berkala Mesin Packer"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "D",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-D-0-3-0-0",
+        "nama_unit": "Tim Perawatan Berkala Mesin Baler-Case Packer dan Gudang Rak Otomatis"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "G",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-G-0-0-0-0",
+        "nama_unit": "Perawatan Mesin Utilitas (Kompresor, Vacuum, Pendingin), Pengolah Air Limbah, Pemadam dan Jaringan Listrik"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "G",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-G-0-1-0-0",
+        "nama_unit": "Perawatan Mesin Kompresor dan Vacuum"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "G",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-G-0-2-0-0",
+        "nama_unit": "Perawatan Mesin Pendingin (Chiller, AHU, Cooling Tower, PHE, dan AC Split)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "G",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-G-0-4-0-0",
+        "nama_unit": "Perawatan Jaringan Listrik"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "G",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-G-0-5-0-0",
+        "nama_unit": "Pengolah Air Limbah dan Perawatan Peralatan Penunjang Pabrik (Pemadam, Lift, Rolling Door, Loading Dock)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "H",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-H-0-0-0-0",
+        "nama_unit": "Pelatihan Teknis Operator dan Teknisi Mesin SKM"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "I",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-I-0-0-0-0",
+        "nama_unit": "Penunjang"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "I",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-I-0-1-0-0",
+        "nama_unit": "Pemotongan Cukai"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "I",
+            "1",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-I-1-0-0-0",
+        "nama_unit": "Laboratorium Pengujian Rokok dan Bahan"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "I",
+            "1",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-I-1-1-0-0",
+        "nama_unit": "Tim Laboratorium Sensory"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "I",
+            "1",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-I-1-2-0-0",
+        "nama_unit": "Tim Laboratorium Kimia"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "I",
+            "1",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-I-1-3-0-0",
+        "nama_unit": "Tim Perawatan dan Kalibrasi Peralatan Laboratorium"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "J",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-J-0-0-0-0",
+        "nama_unit": "Pergudangan Rokok"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "K",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-K-0-0-0-0",
+        "nama_unit": "Penanganan Problem Operasional Mesin Maker"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "K",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-K-0-1-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Maker (Line 16 FS, 12 FS, 12 FIM, 12 GSC)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "K",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-K-0-2-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Maker (Line 16 PRO, 12/16 GSB, 16 PROM, 16 GG Mild/Shiver, Ekspor)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "L",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-L-0-0-0-0",
+        "nama_unit": "Penanganan Problem Operasional Mesin Packer"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "L",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-L-0-1-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Packer (Line 16 FS, 12 FS, 12 FIM, 12 GSC)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "L",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-L-0-2-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Packer (Line 16 PRO, 12/16 GSB, 16 PROM, 16 GG Mild/Shiver, Ekspor)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "M",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-M-0-0-0-0",
+        "nama_unit": "Penanganan Problem Operasional Mesin Filter, Kupas Rokok, Feeder Tembakau, Potong Cukai, Baler-Case Packer, dan Gudang Rak Otomatis"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "M",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-M-0-1-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Filter, Kupas Rokok, Feeder Tembakau, dan Potong Cukai"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "0",
+            "0",
+            "M",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-0-0-M-0-2-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Baler-Case Packer dan Gudang Rak Otomatis"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-0-0-0-0-0",
+        "nama_unit": "Produksi SKM High Tar"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-0-0-1-0-0",
+        "nama_unit": "Penunjang Produksi SKM High Tar"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-0-0-2-0-0",
+        "nama_unit": "Tim Pengecek Rokok, Kemasan dan Filter SKM High Tar"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-0-0-3-0-0",
+        "nama_unit": "Penerimaan dan Silo Stok Tembakau"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-3-0-0-0-0",
+        "nama_unit": "Produksi (Line 16 FS)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-3-0-1-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 16 FS)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-3-0-2-0-0",
+        "nama_unit": "Produksi Filter (Line 16 FS)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-4-0-0-0-0",
+        "nama_unit": "Produksi (Line 12 FS)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-4-0-1-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 12 FS)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-4-0-2-0-0",
+        "nama_unit": "Produksi Filter (Line 12 FS)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-5-0-0-0-0",
+        "nama_unit": "Produksi (Line 12 FIM, 12 GSC)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-5-0-1-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 12 FIM, 12 GSC)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "4",
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-4-0-5-0-2-0-0",
+        "nama_unit": "Produksi Filter (Line 12 FIM, 12 GSC)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-0-0-0-0-0",
+        "nama_unit": "Produksi SKM Low Tar & SKM Baru Phase 1"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-0-0-2-0-0",
+        "nama_unit": "Penunjang Produksi SKM Low Tar"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-0-0-3-0-0",
+        "nama_unit": "Tim Pengecek Rokok, Kemasan dan Filter SKM Low Tar"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-4-0-0-0-0",
+        "nama_unit": "Produksi (Line 16 PRO, 12/16 GSB)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-4-0-1-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 16 PRO, 12/16 GSB)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "4",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-4-0-2-0-0",
+        "nama_unit": "Produksi Filter (Line 16 PRO, 12/16 GSB)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-5-0-0-0-0",
+        "nama_unit": "Produksi (Line 16 PROM,16 GG Mild/Shiver, Ekspor Low Tar)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-5-0-1-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 16 PROM,16 GG Mild/Shiver, Ekspor Low Tar)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-5-0-2-0-0",
+        "nama_unit": "Produksi Filter (Line 16 PROM,16 GG Mild/Shiver, Ekspor Low Tar)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-6-0-0-0-0",
+        "nama_unit": "Produksi (Rokok Baru)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-6-0-1-0-0",
+        "nama_unit": "Produksi Maker-Packer (Rokok Baru)"
+    },
+    {
+        "kode_parts": [
+            "9",
+            "5",
+            "0",
+            "6",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "9-5-0-6-0-2-0-0",
+        "nama_unit": "Produksi Filter (Rokok Baru)"
+    },
+    {
+        "kode_parts": [
+            "A",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "A-0-0-0-0-0-0-0",
+        "nama_unit": "INTERNAL AUDIT"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-0-0-0-0-0",
+        "nama_unit": "Produksi (KEDIRI)-SKT"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-1-0-2-0-0",
+        "nama_unit": "Unit Kompensasi Borongan (SKT)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-2-0-0-0-0",
+        "nama_unit": "Penunjang"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-5-0-0-0-0",
+        "nama_unit": "Perencanaan Bahan dan Perencanaan Produksi"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "5",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-5-0-3-0-0",
+        "nama_unit": "Perencanaan Bahan dan Produksi SKT"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "5",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-5-0-7-0-0",
+        "nama_unit": "Bahan Produksi SKT"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "0",
+            "0",
+            "5",
+            "0",
+            "A",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-0-0-5-0-A-0-0",
+        "nama_unit": "Perencanaan Bahan dan Produksi MPGG"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-0-0-0-0-0",
+        "nama_unit": "Produksi SKT dan MPGG"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-0-0-3-0-0",
+        "nama_unit": "Tim Pengecek Rokok dan Kemasan (SKT KEDIRI)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-0-0-4-0-0",
+        "nama_unit": "Tim Pengecek Rokok dan Kemasan (SKT MPGG)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-4-0-0-0-0",
+        "nama_unit": "Produksi SKT Unit-I dan Unit-III"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-4-0-1-0-0",
+        "nama_unit": "Produksi SKT (Area-I)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "4",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-4-0-3-0-0",
+        "nama_unit": "Produksi SKT (Area-II)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "4",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-4-0-4-0-0",
+        "nama_unit": "Produksi SKT (Area-III)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-5-0-0-0-0",
+        "nama_unit": "Produksi SKT Unit-VIII"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-5-0-1-0-0",
+        "nama_unit": "Produksi SKT (Area-IV)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "5",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-5-0-2-0-0",
+        "nama_unit": "Produksi SKT (Area-V)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "5",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-5-0-3-0-0",
+        "nama_unit": "Produksi SKT (Area-VI)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "5",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-5-0-4-0-0",
+        "nama_unit": "Produksi SKT (Area-VII)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "5",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-5-0-6-0-0",
+        "nama_unit": "Produksi (Kemasan 50 Kaleng)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-6-0-0-0-0",
+        "nama_unit": "Perawatan SKT"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-6-0-1-0-0",
+        "nama_unit": "Perawatan Alat Produksi SKT"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "7",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-7-0-0-0-0",
+        "nama_unit": "Produksi SKT MPGG (Jateng-Jabar)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "7",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-7-0-1-0-0",
+        "nama_unit": "Produksi (MPGG Karanganyar)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "7",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-7-0-2-0-0",
+        "nama_unit": "Produksi (MPGG Brebes)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "7",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-7-0-3-0-0",
+        "nama_unit": "Produksi (MPGG Cirebon)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "7",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-7-0-4-0-0",
+        "nama_unit": "Produksi (MPGG Kartasura)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "7",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-7-0-5-0-0",
+        "nama_unit": "Produksi (MPGG Demak)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-8-0-0-0-0",
+        "nama_unit": "Produksi SKT MPGG (Jatim)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "8",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-8-0-1-0-0",
+        "nama_unit": "Produksi (MPGG Tuban)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "8",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-8-0-2-0-0",
+        "nama_unit": "Produksi (MPGG Lamongan)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "8",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-8-0-3-0-0",
+        "nama_unit": "Produksi (MPGG Paiton)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "8",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-8-0-4-0-0",
+        "nama_unit": "Produksi (MPGG Sumenep)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "8",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-8-0-5-0-0",
+        "nama_unit": "Produksi (MPGG Bojonegoro)"
+    },
+    {
+        "kode_parts": [
+            "B",
+            "1",
+            "0",
+            "8",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "B-1-0-8-0-6-0-0",
+        "nama_unit": "Produksi (MPGG Magetan)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-0-0-0-0-0",
+        "nama_unit": "Produksi (KEDIRI)-SKM"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-3-0-0-0-0",
+        "nama_unit": "Penunjang"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-3-0-1-0-0",
+        "nama_unit": "Pemotongan Pita Cukai"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-3-0-2-0-0",
+        "nama_unit": "Tim Laboratorium Kimia"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "3",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-3-0-3-0-0",
+        "nama_unit": "Tim Perawatan dan Kalibrasi Peralatan Laboratorium"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-4-0-0-0-0",
+        "nama_unit": "Penanganan Problem Operasional Mesin Maker, Filter, Feeder, Kupas Rokok dan Cyclone"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "4",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-4-0-1-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Maker, Filter, Feeder, Kupas Rokok dan Cyclone (Line 16 FS, 12 FS, 12 FIM, dan 50 Kaleng)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-5-0-0-0-0",
+        "nama_unit": "Penanganan Problem Operasional Mesin Packer, Baler-Case Packer, Conveyor Sistem, dan Potong Cukai"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-5-0-1-0-0",
+        "nama_unit": "Tim Penanganan Problem Operasional Mesin Packer, Baler-Case Packer, Conveyor Sistem, dan Potong Cukai (Line 16 FS, 12 FS, 12 FIM, dan 50 Kaleng)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-6-0-0-0-0",
+        "nama_unit": "Perawatan Berkala Mesin Produksi"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-6-0-1-0-0",
+        "nama_unit": "Tim Perawatan Berkala Mesin Baler-Case Packer dan Conveyor Sistem"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "6",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-6-0-2-0-0",
+        "nama_unit": "Tim Perawatan Berkala Mesin Filter, Kupas Rokok, Feeder Tembakau, Cyclone dan Potong Cukai"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "6",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-6-0-3-0-0",
+        "nama_unit": "Tim Perawatan Berkala Mesin Maker"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "6",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-6-0-4-0-0",
+        "nama_unit": "Tim Perawatan Berkala Mesin Packer"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "7",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-7-0-0-0-0",
+        "nama_unit": "Perawatan Mesin Utilitas (Kompresor, Vacuum, Chiller, AHU, Gudang Rak Otomatis), dan Forklift"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "7",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-7-0-1-0-0",
+        "nama_unit": "Perawatan Forklift, AGV, RGV, Suttle Car dan Gudang Rak Otomatis"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "7",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-7-0-2-0-0",
+        "nama_unit": "Perawatan Mesin Utilitas (Kompresor, Vacuum, Chiller, AHU, dll)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-8-0-0-0-0",
+        "nama_unit": "Perencanaan Bahan dan Perencanaan Produksi"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "8",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-8-0-1-0-0",
+        "nama_unit": "Bahan (Penerimaan Tembakau, Produk Jadi)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "8",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-8-0-2-0-0",
+        "nama_unit": "Gudang Bahan Non-Tembakau"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "8",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-8-0-3-0-0",
+        "nama_unit": "Tim Penerimaan dan Pengendalian Stok Gudang Suku Cadang"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "8",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-8-0-4-0-0",
+        "nama_unit": "Tim Pengecek Penerimaan Bahan Non Tembakau"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "8",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-8-0-5-0-0",
+        "nama_unit": "Tim Pengendalian Stok Bahan dan Jadwal Produksi"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "9",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-9-0-0-0-0",
+        "nama_unit": "Pergudangan (Barang Jadi dan Barang Pemasaran)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "9",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-9-0-1-0-0",
+        "nama_unit": "Pengiriman"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "9",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-9-0-2-0-0",
+        "nama_unit": "Pergudangan (Barang Jadi)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "9",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-9-0-3-0-0",
+        "nama_unit": "Pergudangan (Barang Pemasaran)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "0",
+            "0",
+            "9",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-0-0-9-0-4-0-0",
+        "nama_unit": "Pergudangan (Retur Barang Jadi)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-0-0-0-0-0",
+        "nama_unit": "Produksi SKM KEDIRI"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "0",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-0-0-6-0-0",
+        "nama_unit": "Penunjang Produksi"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "0",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-0-0-7-0-0",
+        "nama_unit": "Tim Pengecek Rokok, Kemasan dan Filter"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "8",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-8-0-0-0-0",
+        "nama_unit": "Produksi (Line 16 FS)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "8",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-8-0-1-0-0",
+        "nama_unit": "Produksi Filter (Line 16 FS)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "8",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-8-0-2-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 16 FS)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "9",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-9-0-0-0-0",
+        "nama_unit": "Produksi (Line 12 FS)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "9",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-9-0-1-0-0",
+        "nama_unit": "Produksi Filter (Line 12 FS)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "9",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-9-0-2-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 12 FS)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "A",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-A-0-0-0-0",
+        "nama_unit": "Produksi (Line 12 FIM)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "A",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-A-0-1-0-0",
+        "nama_unit": "Produksi Filter (Line 12 FIM)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "A",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-A-0-2-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 12 FIM)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "B",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-B-0-0-0-0",
+        "nama_unit": "Produksi (Line 50 Kaleng)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "B",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-B-0-1-0-0",
+        "nama_unit": "Produksi Filter (Line 50 Kaleng)"
+    },
+    {
+        "kode_parts": [
+            "C",
+            "1",
+            "0",
+            "B",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "C-1-0-B-0-2-0-0",
+        "nama_unit": "Produksi Maker-Packer (Line 50 Kaleng)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-0-0-0-0-0-0-0",
+        "nama_unit": "Pemasaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-0-0-1-0-1-0-0",
+        "nama_unit": "Pengendalian Anggaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "0",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-0-0-1-0-2-0-0",
+        "nama_unit": "Administrasi"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "0",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-0-0-5-0-0-0-0",
+        "nama_unit": "Pemasaran (Identitas Perusahaan)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "0",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-0-0-6-0-0-0-0",
+        "nama_unit": "Digital Teknis"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "0",
+            "0",
+            "7",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-0-0-7-0-0-0-0",
+        "nama_unit": "Pengembangan Fungsional Pemasaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-5-0-0-0-0-0-0",
+        "nama_unit": "Pemasaran (Grup Merek GG)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "5",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-5-0-1-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek GG Mild/Shiver)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "5",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-5-0-4-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek GG Move)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-6-0-0-0-0-0-0",
+        "nama_unit": "Pemasaran (Grup Merek Gudang Garam)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "6",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-6-0-1-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Gudang Garam International)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "6",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-6-0-2-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Gudang Garam Merah)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "6",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-6-0-3-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Gudang Garam Signature (Filter/Mild))"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "6",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-6-0-5-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Gudang Garam Patra/Djaja/Sriwedari)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "7",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-7-0-0-0-0-0-0",
+        "nama_unit": "Pemasaran (Grup Merek Surya)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "7",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-7-0-1-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Surya Pro Mild)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "7",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-7-0-2-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Surya)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "7",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-7-0-3-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Surya Pro)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "7",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-7-0-4-0-0-0-0",
+        "nama_unit": "Pemasaran (Merek Surya Nusantara)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "9",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-9-0-0-0-0-0-0",
+        "nama_unit": "Pengadaan Pemasaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "9",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-9-0-1-0-0-0-0",
+        "nama_unit": "Pengadaan Aktivitas Media Pemasaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "9",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-9-0-2-0-0-0-0",
+        "nama_unit": "Pengadaan Barang Promosi"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "9",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-9-0-3-0-0-0-0",
+        "nama_unit": "Pengadaan Aktivitas Konsumen Pemasaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "A",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-A-0-0-0-0-0-0",
+        "nama_unit": "Intelijen Bisnis"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "A",
+            "0",
+            "9",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-A-0-9-0-0-0-0",
+        "nama_unit": "Intelijen Bisnis (WO Sumatera dan SKM High Tar)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "A",
+            "0",
+            "A",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-A-0-A-0-0-0-0",
+        "nama_unit": "Intelijen Bisnis (WO Jawa dan SKT)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "A",
+            "0",
+            "B",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-A-0-B-0-0-0-0",
+        "nama_unit": "Intelijen Bisnis (WO Indotim dan SKM Low Tar)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "B",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-B-0-0-0-0-0-0",
+        "nama_unit": "Aktivitas Media Pemasaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "B",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-B-0-2-0-0-0-0",
+        "nama_unit": "Aktivitas Media Pemasaran (Konvensional Media dan Digital)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "B",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-B-0-3-0-0-0-0",
+        "nama_unit": "Aktivitas Media Pemasaran (Desain)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "B",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-B-0-4-0-0-0-0",
+        "nama_unit": "Aktivitas Media Pemasaran (HOP)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "B",
+            "0",
+            "6",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-B-0-6-0-0-0-0",
+        "nama_unit": "Aktivitas Media Pemasaran (Media Luar Ruang)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "D",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-D-0-0-0-0-0-0",
+        "nama_unit": "Informasi Bisnis"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "D",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-D-0-1-0-0-0-0",
+        "nama_unit": "Informasi Bisnis (Winning Brand)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "D",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-D-0-2-0-0-0-0",
+        "nama_unit": "Informasi Bisnis (Market & Retail, Advertising Evaluation)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "D",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-D-0-3-0-0-0-0",
+        "nama_unit": "Informasi Bisnis (Proyek)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "D",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-D-0-4-0-0-0-0",
+        "nama_unit": "Pengembangan Produk Baru"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "E",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-E-0-0-0-0-0-0",
+        "nama_unit": "Aktivitas Konsumen Pemasaran"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "E",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-E-0-1-0-0-0-0",
+        "nama_unit": "Aktivitas Konsumen Pemasaran (Surya)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "E",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-E-0-2-0-0-0-0",
+        "nama_unit": "Aktivitas Konsumen Pemasaran (GSC dan PRO)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "E",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-E-0-3-0-0-0-0",
+        "nama_unit": "Aktivitas Konsumen Pemasaran (SKT)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "E",
+            "0",
+            "4",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-E-0-4-0-0-0-0",
+        "nama_unit": "Aktivitas Konsumen Pemasaran (GGI)"
+    },
+    {
+        "kode_parts": [
+            "D",
+            "E",
+            "0",
+            "5",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "D-E-0-5-0-0-0-0",
+        "nama_unit": "Aktivitas Konsumen Pemasaran (PROM dan GMS)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-0-0-0-0-0-0-0",
+        "nama_unit": "Teknologi Informasi"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-0-0-1-0-0-0-0",
+        "nama_unit": "Sekretariat"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-0-0-1-0-1-0-0",
+        "nama_unit": "Administrasi"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-0-0-0-0-0",
+        "nama_unit": "Insfrastruktur dan Layanan TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-1-0-0-0-0",
+        "nama_unit": "Infrastruktur"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-1-0-2-0-0",
+        "nama_unit": "Pusat Data TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "1",
+            "0",
+            "4",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-1-0-4-0-0",
+        "nama_unit": "Jaringan TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "1",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-1-0-5-0-0",
+        "nama_unit": "Sistem Administrasi (Wintel)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "1",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-1-0-6-0-0",
+        "nama_unit": "Sistem Administrasi (Linux/Unix)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "1",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-1-0-7-0-0",
+        "nama_unit": "Operasional TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-2-0-0-0-0",
+        "nama_unit": "Layanan TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-2-0-1-0-0",
+        "nama_unit": "Dukungan Layanan TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-2-0-2-0-0",
+        "nama_unit": "Manajemen Aset TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-2-0-3-0-0",
+        "nama_unit": "Pusat Bantuan TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-3-0-0-0-0",
+        "nama_unit": "Basis Data"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-3-0-1-0-0",
+        "nama_unit": "Operasional Basis Data (Oracle)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-3-0-2-0-0",
+        "nama_unit": "Operasional Basis Data (Microsoft)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "1",
+            "0",
+            "3",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-1-0-3-0-3-0-0",
+        "nama_unit": "Aplikasi Basis Data (Oracle)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-0-0-0-0-0",
+        "nama_unit": "Solusi Bisnis"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-1-0-0-0-0",
+        "nama_unit": "Sistem Informasi"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-1-0-1-0-0",
+        "nama_unit": "Sistem Informasi (Keuangan, Akuntansi, Pemasaran dan Distribusi)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-1-0-2-0-0",
+        "nama_unit": "Sistem Informasi (SDM, Umum dan Penggajian)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-1-0-3-0-0",
+        "nama_unit": "Sistem Informasi (Produksi, Rantai Pasok dan Manajemen Pergudangan)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-2-0-0-0-0",
+        "nama_unit": "Pengembangan Aplikasi"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-2-0-1-0-0",
+        "nama_unit": "Pengembangan Aplikasi (Oracle)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-2-0-3-0-0",
+        "nama_unit": "Pengembangan Aplikasi (Microsoft)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "2",
+            "0",
+            "5",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-2-0-5-0-0",
+        "nama_unit": "Pengembangan Aplikasi (Inteligensi Bisnis)"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-3-0-0-0-0",
+        "nama_unit": "Pelindungan Data Pribadi dan Keamanan TI"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-3-0-1-0-0",
+        "nama_unit": "Pelindungan Data Pribadi"
+    },
+    {
+        "kode_parts": [
+            "F",
+            "2",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "F-2-0-3-0-2-0-0",
+        "nama_unit": "Keamanan TI"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-0-0-0-0-0",
+        "nama_unit": "SUPPLY CHAIN"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-1-0-0-0-0",
+        "nama_unit": "Supply Chain Secretariat"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-2-0-0-0-0",
+        "nama_unit": "Finished Goods & Point of Sales Marketing Warehouse Department"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "2",
+            "0",
+            "6",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-2-0-6-0-0",
+        "nama_unit": "Returned Finished Good Warehouse Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "2",
+            "0",
+            "7",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-2-0-7-0-0",
+        "nama_unit": "Shipment Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "2",
+            "0",
+            "8",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-2-0-8-0-0",
+        "nama_unit": "Finished Goods Warehouse Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "2",
+            "0",
+            "9",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-2-0-9-0-0",
+        "nama_unit": "POSM Warehouse Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-3-0-0-0-0",
+        "nama_unit": "Kediri Non Tobacco Materials Warehouse Department"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-3-0-1-0-0",
+        "nama_unit": "SKT Warehouse Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "0",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-0-0-3-0-2-0-0",
+        "nama_unit": "SKM Warehouse Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-1-0-0-0-0-0-0",
+        "nama_unit": "Supply Chain Planning Division"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "1",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-1-0-1-0-0-0-0",
+        "nama_unit": "Demand Planning Department"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "1",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-1-0-2-0-0-0-0",
+        "nama_unit": "Supply Planning Department"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "1",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-1-0-3-0-0-0-0",
+        "nama_unit": "Export and Import Department"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "1",
+            "0",
+            "3",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-1-0-3-0-1-0-0",
+        "nama_unit": "Export Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "1",
+            "0",
+            "3",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-1-0-3-0-2-0-0",
+        "nama_unit": "Import Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-2-0-0-0-0-0-0",
+        "nama_unit": "Operations Procurement Division"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-2-0-1-0-0-0-0",
+        "nama_unit": "Non-Tobacco Materials Procurement Department"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-2-0-2-0-0-0-0",
+        "nama_unit": "Machineries, Parts, and Consumables Procurement Department"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "2",
+            "0",
+            "2",
+            "0",
+            "1",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-2-0-2-0-1-0-0",
+        "nama_unit": "Technical Production Procurement Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "2",
+            "0",
+            "2",
+            "0",
+            "2",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-2-0-2-0-2-0-0",
+        "nama_unit": "Technical Non Production and Consumables Procurement Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "2",
+            "0",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-2-0-2-0-3-0-0",
+        "nama_unit": "Facilities and Maintenance Procurement Unit"
+    },
+    {
+        "kode_parts": [
+            "G",
+            "2",
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+        ],
+        "kode_full": "G-2-0-3-0-0-0-0",
+        "nama_unit": "Information Technology and Professional Services Department"
+    }
+]

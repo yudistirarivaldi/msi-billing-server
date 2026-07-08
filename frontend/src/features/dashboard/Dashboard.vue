@@ -454,7 +454,7 @@
 <script setup>
 import { ref, onMounted, onUnmounted, computed, watch } from 'vue';
 import { Activity, Search, AlertTriangle, ShieldCheck, ChevronDown, ChevronLeft, ChevronRight, ChevronUp, Clock, X, PhoneCall } from 'lucide-vue-next';
-import axios from 'axios';
+import axios from '../../utils/axios';
 import { store } from '../../store/billingStore';
 import './Dashboard.css';
 

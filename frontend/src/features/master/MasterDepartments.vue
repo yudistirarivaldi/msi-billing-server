@@ -128,7 +128,7 @@
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue';
 import { Search, ChevronLeft, ChevronRight, Pencil, Trash2, X, CheckCircle2, AlertCircle } from 'lucide-vue-next';
-import axios from 'axios';
+import axios from '../../utils/axios';
 
 const apiBase = '/master/departments';
 const departments = ref([]);
