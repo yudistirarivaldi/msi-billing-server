@@ -46,6 +46,46 @@
         <PieChart class="w-5 h-5 flex-shrink-0" /> 
         <span class="whitespace-nowrap">Cost Analytics</span>
       </router-link>
+
+      <div class="pt-4 pb-2">
+        <p class="nav-label px-4 mb-2">Master Data</p>
+      </div>
+
+      <router-link 
+        to="/master-tariffs"
+        class="nav-link group"
+        active-class="active"
+      >
+        <Banknote class="w-5 h-5 flex-shrink-0" /> 
+        <span class="whitespace-nowrap">Tariffs</span>
+      </router-link>
+
+      <router-link 
+        to="/master-users"
+        class="nav-link group"
+        active-class="active"
+      >
+        <Users class="w-5 h-5 flex-shrink-0" /> 
+        <span class="whitespace-nowrap">Users</span>
+      </router-link>
+
+      <router-link 
+        to="/master-departments"
+        class="nav-link group"
+        active-class="active"
+      >
+        <Network class="w-5 h-5 flex-shrink-0" /> 
+        <span class="whitespace-nowrap">Departments</span>
+      </router-link>
+
+      <router-link 
+        to="/master-teams"
+        class="nav-link group"
+        active-class="active"
+      >
+        <Briefcase class="w-5 h-5 flex-shrink-0" /> 
+        <span class="whitespace-nowrap">Teams</span>
+      </router-link>
     </nav>
 
     <!-- Profile Area -->
@@ -73,7 +113,7 @@
 </template>
 
 <script setup>
-import { LayoutDashboard, Receipt, PieChart, LogOut } from 'lucide-vue-next';
+import { LayoutDashboard, Receipt, PieChart, LogOut, Users, Banknote, Network, Briefcase } from 'lucide-vue-next';
 import { store } from '../../../store/billingStore';
 import './Sidebar.css';
 </script>

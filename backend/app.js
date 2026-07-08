@@ -15,9 +15,12 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser());
 
+const masterDataRoutes = require('./routes/masterDataRoutes');
+
 // API Routes
 app.use('/api/auth', authRoutes);
 app.use('/api/reports', reportRoutes);
+app.use('/api/master', masterDataRoutes);
 
 // Health Check
 app.get('/', (req, res) => res.json({ message: 'Billing System API is running' }));

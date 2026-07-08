@@ -18,7 +18,11 @@ module.exports = {
       '9081299393405', '900180361838', '90180361838', '9082353257881', '908170552991', '9081311127428'
     ];
 
-    const departments = ['IT Infrastructure', 'Finance', 'Marketing', 'Human Resources', 'Operations', 'Sales', 'Customer Service'];
+    // Fetch Kode PPs to assign users randomly
+    const kodePps = await queryInterface.sequelize.query(
+      `SELECT id FROM master_teams ;`,
+      { type: queryInterface.sequelize.QueryTypes.SELECT }
+    );
     const names = [
       'Andi Pratama', 'Siti Aminah', 'Ahmad Sudais', 'Budi Santoso', 'Dewi Lestari', 
       'Eko Wahyudi', 'Fitriani', 'Guruh Soekarno', 'Hendra Wijaya', 'Indah Permata',
@@ -34,15 +38,15 @@ module.exports = {
 
     const userData = extensions.map((ext, index) => {
       const name = names[index % names.length];
-      const dept = departments[index % departments.length];
-      const costCenter = `${dept.slice(0, 3).toUpperCase()}-00${(index % 9) + 1}`;
+      const randomKodePpId = kodePps.length > 0 ? kodePps[Math.floor(Math.random() * kodePps.length)].id : null;
+      const randomQuota = Math.floor(Math.random() * 15) * 100000 + 500000; // Random between 500k to 2M
 
       return {
         id: uuidv4(),
         extension: ext,
         name: name,
-        department: dept,
-        cost_center: costCenter,
+        team_id: randomKodePpId,
+        monthly_quota: randomQuota,
         device_name: `SEP${Math.random().toString(16).slice(2, 14).toUpperCase()}`,
         created_at: new Date(),
         updated_at: new Date()

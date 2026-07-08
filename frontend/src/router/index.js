@@ -4,6 +4,10 @@ import Login from '../features/auth/Login.vue';
 import Dashboard from '../features/dashboard/Dashboard.vue';
 import InvoiceEngine from '../features/invoice/InvoiceEngine.vue';
 import CostAnalytics from '../features/analytics/CostAnalytics.vue';
+import MasterTariffs from '../features/master/MasterTariffs.vue';
+import MasterUsers from '../features/master/MasterUsers.vue';
+import MasterDepartments from '../features/master/MasterDepartments.vue';
+import MasterTeams from '../features/master/MasterTeams.vue';
 
 const routes = [
   {
@@ -28,6 +32,30 @@ const routes = [
     path: '/analytics',
     name: 'Analytics',
     component: CostAnalytics,
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/master-tariffs',
+    name: 'MasterTariffs',
+    component: MasterTariffs,
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/master-users',
+    name: 'MasterUsers',
+    component: MasterUsers,
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/master-departments',
+    name: 'MasterDepartments',
+    component: MasterDepartments,
+    meta: { requiresAuth: true }
+  },
+  {
+    path: '/master-teams',
+    name: 'MasterTeams',
+    component: MasterTeams,
     meta: { requiresAuth: true }
   }
 ];

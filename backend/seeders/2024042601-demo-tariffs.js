@@ -33,7 +33,7 @@ module.exports = {
       {
         prefix: '90', // Fallback Akses Keluar 9 + Area Code Lainnya
         description: 'National General (PSTN/Toll Free) via Outbound Trunk',
-        rate_per_second: 5.0000,
+        rate_per_second: Math.floor(Math.random() * 10) + 5, // Random 5-15
         call_type: 'National',
         created_at: new Date(),
         updated_at: new Date()
@@ -41,7 +41,7 @@ module.exports = {
       {
         prefix: '908', // Kombinasi Akses Keluar 9 + Prefix HP 08
         description: 'National Mobile via Outbound Trunk (Telkomsel, XL, Indosat)',
-        rate_per_second: 10.0000,
+        rate_per_second: Math.floor(Math.random() * 20) + 10, // Random 10-30
         call_type: 'National',
         created_at: new Date(),
         updated_at: new Date()
@@ -49,7 +49,7 @@ module.exports = {
       {
         prefix: '9021', // Akses Keluar 9 + Kode Area Jakarta 021
         description: 'Landline Jakarta via Outbound Trunk',
-        rate_per_second: 5.0000,
+        rate_per_second: Math.floor(Math.random() * 10) + 5, // Random 5-15
         call_type: 'National',
         created_at: new Date(),
         updated_at: new Date()
@@ -59,7 +59,7 @@ module.exports = {
       {
         prefix: '900', // Akses Keluar 9 + International Prefix 00
         description: 'International SLI via Outbound Trunk',
-        rate_per_second: 100.0000,
+        rate_per_second: Math.floor(Math.random() * 100) + 50, // Random 50-150
         call_type: 'International',
         created_at: new Date(),
         updated_at: new Date()
@@ -67,7 +67,7 @@ module.exports = {
       {
         prefix: '9+', // Akses Keluar 9 + Format Global +
         description: 'International General via Outbound Trunk (+)',
-        rate_per_second: 150.0000,
+        rate_per_second: Math.floor(Math.random() * 150) + 100, // Random 100-250
         call_type: 'International',
         created_at: new Date(),
         updated_at: new Date()

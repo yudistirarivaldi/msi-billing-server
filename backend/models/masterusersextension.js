@@ -28,13 +28,14 @@ module.exports = (sequelize, DataTypes) => {
         len: [1, 255]
       }
     },
-    department: {
-      type: DataTypes.STRING(255),
+    team_id: {
+      type: DataTypes.UUID,
       allowNull: true
     },
-    cost_center: {
-      type: DataTypes.STRING(100),
-      allowNull: true
+    monthly_quota: {
+      type: DataTypes.DECIMAL(15, 2),
+      allowNull: false,
+      defaultValue: 0
     },
     device_name: {
       type: DataTypes.STRING(255),
@@ -55,7 +56,7 @@ module.exports = (sequelize, DataTypes) => {
         fields: ['device_name']
       },
       {
-        fields: ['department']
+        fields: ['team_id']
       }
     ]
   });
@@ -64,6 +65,10 @@ module.exports = (sequelize, DataTypes) => {
     MasterUsersExtension.hasMany(models.callsprocessed, {
       foreignKey: 'user_id',
       as: 'calls'
+    });
+    MasterUsersExtension.belongsTo(models.masterteam, {
+      foreignKey: 'team_id',
+      as: 'team'
     });
   };
   return MasterUsersExtension;

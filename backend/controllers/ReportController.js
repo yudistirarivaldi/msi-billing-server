@@ -1,4 +1,4 @@
-const { callsprocessed: CallsProcessed, masterusersextension: MasterUsersExtension, cdrraw: CdrRaw } = require('../models');
+const { callsprocessed: CallsProcessed, masterusersextension: MasterUsersExtension, cdrraw: CdrRaw, masterdepartment: MasterDepartment, masterteam: MasterTeam } = require('../models');
 const { Op, fn, col, json } = require('sequelize');
 
 // Helper function diletakkan di luar class agar aman dari masalah 'this'
@@ -57,7 +57,7 @@ class ReportController {
                 include: [{
                     model: MasterUsersExtension,
                     as: 'user',
-                    attributes: ['name', 'extension', 'department', 'cost_center']
+                    attributes: ['name', 'extension'], include: [{ model: MasterTeam, as: 'team', attributes: ['name'], include: [{ model: MasterDepartment, as: 'department', attributes: ['name'] }] }]
                 }],
                 where: {
                     normalized_time: { [Op.between]: [startDate, endDate] },
@@ -87,7 +87,7 @@ class ReportController {
 
             const report = await CallsProcessed.findAll({
                 attributes: [
-                    [col('user.department'), 'department'],
+                    [col('user->team->department.name'), 'department'],
                     [fn('SUM', col('duration')), 'total_duration'],
                     [fn('SUM', col('cost')), 'total_cost'],
                     [fn('COUNT', col('callsprocessed.id')), 'total_calls']
@@ -95,12 +95,13 @@ class ReportController {
                 include: [{
                     model: MasterUsersExtension,
                     as: 'user',
-                    attributes: []
+                    attributes: [],
+                    include: [{ model: MasterTeam, as: 'team', attributes: [], include: [{ model: MasterDepartment, as: 'department', attributes: [] }] }]
                 }],
                 where: {
                     normalized_time: { [Op.between]: [startDate, endDate] }
                 },
-                group: [col('user.department')],
+                group: [col('user->team->department.name')],
                 order: [[fn('SUM', col('cost')), 'DESC']]
             });
 
@@ -169,13 +170,13 @@ class ReportController {
                 include: [{
                     model: MasterUsersExtension,
                     as: 'user',
-                    attributes: ['name', 'extension', 'department']
+                    attributes: ['name', 'extension'], include: [{ model: MasterTeam, as: 'team', attributes: ['name'], include: [{ model: MasterDepartment, as: 'department', attributes: ['name'] }] }]
                 }],
                 where: {
                     normalized_time: { [Op.between]: [startDate, endDate] },
                     user_id: { [Op.ne]: null }
                 },
-                group: ['user_id', 'user.id'],
+                group: ['user_id', 'user.id', 'user->team.id', 'user->team->department.id'],
                 order: [[fn('SUM', col('cost')), 'DESC']],
                 limit: parseInt(limit)
             });
@@ -233,7 +234,7 @@ class ReportController {
                     {
                         model: MasterUsersExtension,
                         as: 'user',
-                        attributes: ['name', 'extension', 'department']
+                        attributes: ['name', 'extension'], include: [{ model: MasterTeam, as: 'team', attributes: ['name'], include: [{ model: MasterDepartment, as: 'department', attributes: ['name'] }] }]
                     },
                     // Menyatukan model CdrRaw untuk mendapatkan origination dan disconnect timestamp asli dari Cisco CUCM
                     {
@@ -585,7 +586,7 @@ class ReportController {
                     {
                         model: MasterUsersExtension,
                         as: 'user',
-                        attributes: ['name', 'extension', 'department']
+                        attributes: ['name', 'extension'], include: [{ model: MasterTeam, as: 'team', attributes: ['name'], include: [{ model: MasterDepartment, as: 'department', attributes: ['name'] }] }]
                     },
                     // Gabungkan dengan data CdrRaw mentah untuk mendapatkan data timeline
                     {
