@@ -12,6 +12,7 @@ router.delete('/tariffs/:id', MasterDataController.deleteTariff);
 router.get('/users', MasterDataController.getUsers);
 router.post('/users', MasterDataController.createUser);
 router.put('/users/:id', MasterDataController.updateUser);
+router.put('/users/:id/quota', MasterDataController.updateUserQuota);
 router.delete('/users/:id', MasterDataController.deleteUser);
 
 // --- Master Departments Routes ---

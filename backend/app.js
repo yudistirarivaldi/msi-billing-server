@@ -4,6 +4,7 @@ const cookieParser = require('cookie-parser');
 const reportRoutes = require('./routes/reportRoutes');
 const authRoutes = require('./routes/authRoutes');
 const db = require('./models');
+const cronService = require('./cronService');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -28,9 +29,12 @@ app.get('/', (req, res) => res.json({ message: 'Billing System API is running' }
 // Sinkronisasi DB dan Jalankan Server
 db.sequelize.authenticate()
     .then(() => {
-        console.log('Database connected...');
+        console.log('Database connected successfully');
         app.listen(PORT, () => {
-            console.log(`Server is running on http://localhost:${PORT}`);
+            console.log(`Server is running on port ${PORT}`);
+            
+            // Start the cron service
+            cronService.start();
         });
     })
     .catch(err => {

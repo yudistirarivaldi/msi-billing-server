@@ -37,6 +37,11 @@ module.exports = (sequelize, DataTypes) => {
       allowNull: false,
       defaultValue: 0
     },
+    is_restricted: {
+      type: DataTypes.BOOLEAN,
+      allowNull: false,
+      defaultValue: false
+    },
     device_name: {
       type: DataTypes.STRING(255),
       allowNull: true

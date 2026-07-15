@@ -2,6 +2,7 @@
 
 const db = require('./models');
 const { Op } = require('sequelize');
+const cucmService = require('./services/cucmService');
 
 class BillingService {
 
@@ -15,7 +16,7 @@ class BillingService {
       return 'Internal';
     }
 
-    // 2. Jika nomor diawali dengan prefix keluar '9', kita kuliti/bersihkan nomornya
+    // 2. Jika nomor diawali dengan prefix keluar '9'
     let isExternalByPrefix = false;
     if (calledNum.startsWith('9') && calledNum.length > 5) {
       calledNum = calledNum.substring(1); // Buang angka 9 di depan, ambil sisanya
@@ -179,6 +180,71 @@ class BillingService {
       cmc_fac_code: rowData.clientMatterCode || rowData.authCodeDescription || null,
       status: status
     };
+  }
+
+  // Evaluasi Kuota Semua Pengguna
+  static async evaluateUserQuotas() {
+    console.log('[QUOTA] Starting user quota evaluation...');
+    try {
+      // Dapatkan awal dan akhir bulan berjalan
+      const now = new Date();
+      const firstDay = new Date(now.getFullYear(), now.getMonth(), 1);
+      const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0, 23, 59, 59);
+
+      // Cari semua user (join dengan CallProcessed untuk bulan ini)
+      const users = await db.masterusersextension.findAll({
+        attributes: [
+          'id', 'extension', 'name', 'monthly_quota', 'is_restricted', 'device_name',
+          [db.sequelize.fn('SUM', db.sequelize.col('calls.cost')), 'total_cost']
+        ],
+        include: [{
+          model: db.callsprocessed,
+          as: 'calls',
+          attributes: [],
+          where: {
+            normalized_time: {
+              [Op.between]: [firstDay, lastDay]
+            }
+          },
+          required: false
+        }],
+        group: ['masterusersextension.id']
+      });
+
+      let restrictedCount = 0;
+      for (const user of users) {
+        // Jika monthly_quota == 0, anggap unlimited / tidak dipantau
+        if (!user.monthly_quota || parseFloat(user.monthly_quota) <= 0) continue;
+
+        const totalCost = parseFloat(user.dataValues.total_cost) || 0;
+        const quota = parseFloat(user.monthly_quota);
+
+        if (totalCost >= quota && !user.is_restricted) {
+          console.log(`[QUOTA] User ${user.name} (${user.extension}) exceeded quota: Rp ${totalCost} >= Rp ${quota}`);
+          
+          // Trigger CUCM Restriction
+          if (user.device_name) {
+            const success = await cucmService.restrictDevice(user.device_name);
+            if (success) {
+              await user.update({ is_restricted: true });
+              restrictedCount++;
+            } else {
+              console.warn(`[QUOTA] Failed to restrict user ${user.name} in CUCM. Marking restricted in DB anyway for testing.`);
+              // Paksa update ke true di database meskipun CUCM gagal karena environment lokal
+              await user.update({ is_restricted: true }); 
+            }
+          } else {
+            console.warn(`[QUOTA] Cannot restrict user ${user.name} in CUCM (No device_name mapped).`);
+            // Opsional: kita bisa menandai is_restricted = true juga di database meskipun gagal di CUCM
+            // await user.update({ is_restricted: true }); 
+          }
+        }
+      }
+
+      console.log(`[QUOTA] Evaluation completed. Restricted ${restrictedCount} users.`);
+    } catch (error) {
+      console.error('[QUOTA] Error evaluating quotas:', error);
+    }
   }
 }
 

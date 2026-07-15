@@ -43,15 +43,46 @@ exports.deleteTariff = async (req, res) => {
 };
 
 // === MASTER USERS ===
+const { Op } = require('sequelize');
+
 exports.getUsers = async (req, res) => {
   try {
+    const now = new Date();
+    const firstDay = new Date(now.getFullYear(), now.getMonth(), 1);
+    const lastDay = new Date(now.getFullYear(), now.getMonth() + 1, 0, 23, 59, 59);
+
     const users = await db.masterusersextension.findAll({
+      attributes: {
+        include: [
+          [
+            db.sequelize.literal(`(
+              SELECT COALESCE(SUM("cost"), 0)
+              FROM "calls_processed" AS "calls"
+              WHERE "calls"."user_id" = "masterusersextension"."id"
+                AND "calls"."normalized_time" BETWEEN '${firstDay.toISOString()}' AND '${lastDay.toISOString()}'
+            )`),
+            'current_usage'
+          ]
+        ]
+      },
       include: [
         { model: db.masterteam, as: 'team', include: ['department'] }
       ],
       order: [['name', 'ASC']]
     });
     res.json(users);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
+exports.updateUserQuota = async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { monthly_quota } = req.body;
+    await db.masterusersextension.update({ monthly_quota }, { where: { id } });
+    const updated = await db.masterusersextension.findByPk(id);
+    res.json(updated);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }

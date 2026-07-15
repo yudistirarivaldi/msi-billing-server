@@ -395,6 +395,9 @@ async function processFile(filePath) {
         // Commit transaction after all rows are processed
         await transaction.commit();
         
+        // Pemicu pengecekan kuota setelah satu file CDR berhasil diproses sepenuhnya
+        await BillingService.evaluateUserQuotas();
+        
         logger.success(`File processed successfully: ${fileName}`);
         logger.info(`Processing summary`, {
           fileName,
